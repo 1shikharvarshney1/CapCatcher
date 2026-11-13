@@ -1,0 +1,62 @@
+# =====================================================================
+# CapCatcher Master .gitignore
+# =====================================================================
+
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+eval/node_modules/
+
+# Environment files & Secrets
+.env
+.env.*
+!.env.example
+server/.env
+server/.env.*
+!server/.env.example
+client/.env
+client/.env.*
+!client/.env.example
+
+# Uploads & Temporary Media
+uploads/
+server/uploads/
+eval/temp/
+test_video.mp4
+
+# Tesseract OCR Models & Downloaded Data
+*.traineddata
+server/eng.traineddata
+
+# Build Outputs
+dist/
+dist-ssr/
+build/
+client/dist/
+
+# Test Coverage
+coverage/
+*.lcov
+.nyc_output/
+
+# Runtime Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE & Editor Directories
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+Desktop.ini

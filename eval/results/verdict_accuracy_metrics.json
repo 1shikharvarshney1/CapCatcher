@@ -1,0 +1,138 @@
+{
+  "sampleSizeMatched": 21,
+  "correctVerdicts": 18,
+  "accuracy": 0.8571428571428571,
+  "confusionMatrix": {
+    "true": {
+      "true": 7,
+      "false": 0,
+      "misleading": 0,
+      "unverified": 0
+    },
+    "false": {
+      "true": 0,
+      "false": 11,
+      "misleading": 0,
+      "unverified": 3
+    },
+    "misleading": {
+      "true": 0,
+      "false": 0,
+      "misleading": 0,
+      "unverified": 0
+    },
+    "unverified": {
+      "true": 0,
+      "false": 0,
+      "misleading": 0,
+      "unverified": 0
+    }
+  },
+  "wrongVerdicts": [
+    {
+      "reelId": "reel_05",
+      "gtClaimId": "c9",
+      "claim": "The amount of electricity consumed was enough to recharge a modern vehicle.",
+      "groundTruth": "false",
+      "predicted": "unverified",
+      "cause": "bad retrieval / evidence gap (retrieved sources did not suffice or citations missing)",
+      "explanation": "While the provided sources discuss the amount of electricity consumed by electric vehicles, they do not provide a specific quantity of electricity that defines a single 'recharge' event, making it impossible to verify if a specific amount of electricity is sufficient for that purpose.",
+      "sourcesRetrieved": [
+        {
+          "id": "S1",
+          "url": "https://electricvehiclecouncil.com.au/docs/how-much-electricity-does-charging-an-electric-vehicle-consume-compared-to-typical-household-usage",
+          "domain": "electricvehiclecouncil.com.au",
+          "tier": 3
+        },
+        {
+          "id": "S2",
+          "url": "https://climate.mit.edu/ask-mit/how-much-extra-electricity-would-we-need-switch-every-gas-powered-car-electric-vehicle",
+          "domain": "climate.mit.edu",
+          "tier": 3
+        },
+        {
+          "id": "S3",
+          "url": "https://www.epa.gov/greenvehicles/electric-vehicle-myths",
+          "domain": "epa.gov",
+          "tier": 3
+        },
+        {
+          "id": "S4",
+          "url": "https://www.reddit.com/r/AskEngineers/comments/r2d7gj/if_100_of_cars_were_evs_do_we_have_enough_power",
+          "domain": "reddit.com",
+          "tier": 3
+        }
+      ]
+    },
+    {
+      "reelId": "reel_07",
+      "gtClaimId": "c15",
+      "claim": "Lightning never strikes the same place twice.",
+      "groundTruth": "false",
+      "predicted": "unverified",
+      "cause": "bad retrieval / evidence gap (retrieved sources did not suffice or citations missing)",
+      "explanation": "Error verifying claim with sources.",
+      "sourcesRetrieved": [
+        {
+          "id": "S1",
+          "url": "https://www.westeamahead.org/blog/2025/2/5/mythbuster-lightning-never-strikes-the-same-place-twice",
+          "domain": "westeamahead.org",
+          "tier": 3
+        },
+        {
+          "id": "S2",
+          "url": "https://www.britannica.com/story/can-lightning-strike-the-same-place-twice",
+          "domain": "britannica.com",
+          "tier": 3
+        },
+        {
+          "id": "S3",
+          "url": "https://lpsfr.com/en/blog-lightning-never-strikes-twice",
+          "domain": "lpsfr.com",
+          "tier": 3
+        },
+        {
+          "id": "S4",
+          "url": "https://www.noaa.gov/stories/5-striking-facts-versus-myths-about-lightning-you-should-know",
+          "domain": "noaa.gov",
+          "tier": 3
+        }
+      ]
+    },
+    {
+      "reelId": "reel_08",
+      "gtClaimId": "c18",
+      "claim": "Sound waves travel faster through air than through solid steel.",
+      "groundTruth": "false",
+      "predicted": "unverified",
+      "cause": "bad retrieval / evidence gap (retrieved sources did not suffice or citations missing)",
+      "explanation": "Error verifying claim with sources.",
+      "sourcesRetrieved": [
+        {
+          "id": "S1",
+          "url": "https://schoolnet.org.za/PILAfrica/en/webs/19537/physics4.html",
+          "domain": "schoolnet.org.za",
+          "tier": 3
+        },
+        {
+          "id": "S2",
+          "url": "https://www.sciencetimes.com/articles/62500/20260828/why-sound-travels-differently-through-air-water-solids.htm",
+          "domain": "sciencetimes.com",
+          "tier": 3
+        },
+        {
+          "id": "S3",
+          "url": "https://www.youtube.com/watch?v=MpAwBUxqgcA",
+          "domain": "youtube.com",
+          "tier": 3
+        },
+        {
+          "id": "S4",
+          "url": "https://en.wikipedia.org/wiki/Speed_of_sound",
+          "domain": "en.wikipedia.org",
+          "tier": 3
+        }
+      ]
+    }
+  ]
+}

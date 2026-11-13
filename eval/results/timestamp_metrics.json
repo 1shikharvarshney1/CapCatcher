@@ -1,0 +1,176 @@
+{
+  "sampleSize": 21,
+  "meanErrorSeconds": 4.647619047619047,
+  "medianErrorSeconds": 3,
+  "maxErrorSeconds": 13.4,
+  "details": [
+    {
+      "reelId": "reel_01",
+      "gtClaimId": "c1",
+      "claim": "The human adult body is typically composed of approximately 60 percent water.",
+      "gtTimestamp": 4,
+      "predTimestamp": 3,
+      "errorSeconds": 1
+    },
+    {
+      "reelId": "reel_01",
+      "gtClaimId": "c2",
+      "claim": "Mount Everest is located entirely within the borders of India.",
+      "gtTimestamp": 13,
+      "predTimestamp": 10.1,
+      "errorSeconds": 2.9000000000000004
+    },
+    {
+      "reelId": "reel_02",
+      "gtClaimId": "c3",
+      "claim": "Drinking coffee significantly increases cardiovascular disease mortality in healthy adults.",
+      "gtTimestamp": 3.5,
+      "predTimestamp": 1.4,
+      "errorSeconds": 2.1
+    },
+    {
+      "reelId": "reel_02",
+      "gtClaimId": "c4",
+      "claim": "Drinking warm lemon water cures type 2 diabetes within forty eight hours.",
+      "gtTimestamp": 12,
+      "predTimestamp": 6.6,
+      "errorSeconds": 5.4
+    },
+    {
+      "reelId": "reel_03",
+      "gtClaimId": "c5",
+      "claim": "The Great Wall of China is easily visible from the Moon with the naked human eye.",
+      "gtTimestamp": 5,
+      "predTimestamp": 3.3,
+      "errorSeconds": 1.7000000000000002
+    },
+    {
+      "reelId": "reel_03",
+      "gtClaimId": "c6",
+      "claim": "The speed of light in a vacuum is approximately 300000 kilometers per second.",
+      "gtTimestamp": 15.5,
+      "predTimestamp": 9.2,
+      "errorSeconds": 6.300000000000001
+    },
+    {
+      "reelId": "reel_04",
+      "gtClaimId": "c7",
+      "claim": "Venus is the hottest planet in our solar system.",
+      "gtTimestamp": 2,
+      "predTimestamp": 2,
+      "errorSeconds": 0
+    },
+    {
+      "reelId": "reel_04",
+      "gtClaimId": "c8",
+      "claim": "Antibiotics are effective at killing influenza viruses.",
+      "gtTimestamp": 16,
+      "predTimestamp": 16,
+      "errorSeconds": 0
+    },
+    {
+      "reelId": "reel_05",
+      "gtClaimId": "c9",
+      "claim": "Bananas generate enough electricity to recharge a modern smartphone.",
+      "gtTimestamp": 2,
+      "predTimestamp": 2,
+      "errorSeconds": 0
+    },
+    {
+      "reelId": "reel_07",
+      "gtClaimId": "c13",
+      "claim": "The Pacific Ocean is the largest ocean on Earth.",
+      "gtTimestamp": 3,
+      "predTimestamp": 2.5,
+      "errorSeconds": 0.5
+    },
+    {
+      "reelId": "reel_07",
+      "gtClaimId": "c14",
+      "claim": "Sharks are mammals that produce milk for their young.",
+      "gtTimestamp": 14,
+      "predTimestamp": 7.1,
+      "errorSeconds": 6.9
+    },
+    {
+      "reelId": "reel_07",
+      "gtClaimId": "c15",
+      "claim": "Lightning never strikes the same place twice.",
+      "gtTimestamp": 25,
+      "predTimestamp": 11.6,
+      "errorSeconds": 13.4
+    },
+    {
+      "reelId": "reel_08",
+      "gtClaimId": "c16",
+      "claim": "Jupiter's Great Red Spot is a giant spinning storm.",
+      "gtTimestamp": 3,
+      "predTimestamp": 2,
+      "errorSeconds": 1
+    },
+    {
+      "reelId": "reel_08",
+      "gtClaimId": "c17",
+      "claim": "Humans only use 10 percent of their brain.",
+      "gtTimestamp": 14,
+      "predTimestamp": 7.7,
+      "errorSeconds": 6.3
+    },
+    {
+      "reelId": "reel_08",
+      "gtClaimId": "c18",
+      "claim": "Sound waves travel faster through air than through solid steel.",
+      "gtTimestamp": 25,
+      "predTimestamp": 12,
+      "errorSeconds": 13
+    },
+    {
+      "reelId": "reel_09",
+      "gtClaimId": "c19",
+      "claim": "The human heart pumps thousands of gallons of blood each day.",
+      "gtTimestamp": 3,
+      "predTimestamp": 3.4,
+      "errorSeconds": 0.3999999999999999
+    },
+    {
+      "reelId": "reel_09",
+      "gtClaimId": "c20",
+      "claim": "Cracking your knuckles causes arthritis in your fingers.",
+      "gtTimestamp": 14,
+      "predTimestamp": 8.3,
+      "errorSeconds": 5.699999999999999
+    },
+    {
+      "reelId": "reel_09",
+      "gtClaimId": "c21",
+      "claim": "Drinking pure water completely cures all forms of cancer.",
+      "gtTimestamp": 25,
+      "predTimestamp": 13.3,
+      "errorSeconds": 11.7
+    },
+    {
+      "reelId": "reel_10",
+      "gtClaimId": "c22",
+      "claim": "The Amazon rainforest is located primarily in South America.",
+      "gtTimestamp": 3,
+      "predTimestamp": 0,
+      "errorSeconds": 3
+    },
+    {
+      "reelId": "reel_10",
+      "gtClaimId": "c23",
+      "claim": "Vaccines contain tracking microchips connected to 5G cellular networks.",
+      "gtTimestamp": 14,
+      "predTimestamp": 8.2,
+      "errorSeconds": 5.800000000000001
+    },
+    {
+      "reelId": "reel_10",
+      "gtClaimId": "c24",
+      "claim": "Consuming refined sugar is the sole cause of type 1 diabetes.",
+      "gtTimestamp": 25,
+      "predTimestamp": 14.5,
+      "errorSeconds": 10.5
+    }
+  ]
+}
