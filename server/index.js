@@ -4,6 +4,10 @@ import cors from 'cors';
 import mongoose from 'mongoose';
 import jobsRouter from './routes/jobs.js';
 import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const app = express();
 app.use(cors());
@@ -15,6 +19,15 @@ fs.mkdirSync('uploads/frames', { recursive: true });
 app.use('/api/jobs', jobsRouter);
 
 app.get('/health', (req, res) => res.json({ ok: true }));
+
+// Serve static frontend assets from client/dist in production
+if (process.env.NODE_ENV === 'production') {
+  const clientDist = path.join(__dirname, '../client/dist');
+  app.use(express.static(clientDist));
+  app.get('*', (req, res) => {
+    res.sendFile(path.join(clientDist, 'index.html'));
+  });
+}
 
 const PORT = process.env.PORT || 5001;
 
