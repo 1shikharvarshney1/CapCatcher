@@ -49,7 +49,7 @@ Respond ONLY with a JSON object in this format:
 }`;
 
   try {
-    const modelName = process.env.GEMINI_MODEL || 'gemini-1.5-flash';
+    const modelName = process.env.GEMINI_MODEL || 'gemini-3.5-flash-lite';
     const model = genAI.getGenerativeModel({
       model: modelName,
       generationConfig: {

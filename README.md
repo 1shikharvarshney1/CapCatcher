@@ -13,7 +13,7 @@ Short-form videos (Instagram Reels, YouTube Shorts, TikTok) spread viral misinfo
 - **Audio & Video Processing**: `fluent-ffmpeg`, `ffmpeg-static`
 - **Speech-to-Text**: Groq API (`whisper-large-v3`)
 - **Optical Character Recognition (OCR)**: Tesseract.js (English model)
-- **Claim Extraction & Fact Verification**: Google Gemini API (`gemini-1.5-flash` / `gemini-3.1-flash-lite`)
+- **Claim Extraction & Fact Verification**: Google Gemini API (`gemini-3.5-flash-lite` / `gemini-3.1-flash-lite`)
 - **Evidence Retrieval**: Tavily Search API, Google Fact Check Tools API
 - **Database**: MongoDB via Mongoose (with automated fallback to `mongodb-memory-server` in dev mode)
 
@@ -138,7 +138,7 @@ CapCatcher/
    GROQ_API_KEY=your_groq_api_key_here
    GEMINI_API_KEY=your_gemini_api_key_here
    TAVILY_API_KEY=your_tavily_api_key_here
-   GEMINI_MODEL=gemini-1.5-flash
+   GEMINI_MODEL=gemini-3.5-flash-lite
    # Optional: Leave blank to use in-memory MongoDB
    MONGODB_URI=
    ```
