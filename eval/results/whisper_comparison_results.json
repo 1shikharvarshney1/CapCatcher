@@ -1,0 +1,306 @@
+{
+  "evaluatedReels": 12,
+  "totalGroundTruthClaims": 24,
+  "metrics": {
+    "claimsRecovered": {
+      "description": "True Positives (recovered checkable claims)",
+      "groq": "21 of 24 (87.5%)",
+      "local": "21 of 24 (87.5%)"
+    },
+    "falsePositives": {
+      "description": "False Positives (extraneous claims detected)",
+      "groq": 0,
+      "local": 0
+    },
+    "falseNegatives": {
+      "description": "False Negatives (missed checkable claims)",
+      "groq": 3,
+      "local": 3
+    },
+    "verdictAccuracy": {
+      "description": "Verdicts matching ground truth labels",
+      "groq": "18 of 21 (85.7%)",
+      "local": "20 of 21 (95.2%)"
+    },
+    "timestampErrorSec": {
+      "description": "Speech claim timestamp error (|pred - gt|)",
+      "groqMedian": 3,
+      "localMedian": 2.8000000000000007,
+      "localMin": 0,
+      "localMax": 13.6,
+      "localMean": 4.47
+    },
+    "transcriptionTimeSec": {
+      "description": "Audio transcription duration per reel",
+      "groqMedian": 0.64,
+      "groqMean": 0.91,
+      "localMedian": 12.69,
+      "localMean": 10.23,
+      "localMin": 0.01,
+      "localMax": 17.16
+    },
+    "endToEndTimeSec": {
+      "description": "Total pipeline duration per reel",
+      "groqMedian": 44.38,
+      "groqMean": 46.49,
+      "localMedian": 23.96,
+      "localMean": 21.36,
+      "localMin": 10.02,
+      "localMax": 32.41
+    }
+  },
+  "matchedClaims": [
+    {
+      "reelId": "reel_01",
+      "gtText": "The human adult body is typically composed of approximately 60 percent water.",
+      "predText": "The human adult body is typically composed of approximately 60% water.",
+      "gtVerdict": "true",
+      "predVerdict": "true",
+      "verdictMatch": true,
+      "gtTimestamp": 4,
+      "predTimestamp": 3,
+      "timestampError": 1,
+      "score": 1
+    },
+    {
+      "reelId": "reel_01",
+      "gtText": "Mount Everest is located entirely within the borders of India.",
+      "predText": "Mount Everest is located entirely within the borders of India.",
+      "gtVerdict": "false",
+      "predVerdict": "false",
+      "verdictMatch": true,
+      "gtTimestamp": 13,
+      "predTimestamp": 10.2,
+      "timestampError": 2.8000000000000007,
+      "score": 1
+    },
+    {
+      "reelId": "reel_02",
+      "gtText": "Drinking coffee significantly increases cardiovascular disease mortality in healthy adults.",
+      "predText": "Drinking coffee significantly increases cardiovascular disease mortality in healthy adults.",
+      "gtVerdict": "false",
+      "predVerdict": "false",
+      "verdictMatch": true,
+      "gtTimestamp": 3.5,
+      "predTimestamp": 2,
+      "timestampError": 1.5,
+      "score": 1
+    },
+    {
+      "reelId": "reel_02",
+      "gtText": "Drinking warm lemon water cures type 2 diabetes within forty eight hours.",
+      "predText": "Drinking warm lemon water cures type 2 diabetes within 48 hours.",
+      "gtVerdict": "false",
+      "predVerdict": "false",
+      "verdictMatch": true,
+      "gtTimestamp": 12,
+      "predTimestamp": 6.5,
+      "timestampError": 5.5,
+      "score": 1
+    },
+    {
+      "reelId": "reel_03",
+      "gtText": "The Great Wall of China is easily visible from the Moon with the naked human eye.",
+      "predText": "The Great Wall of China is easily visible from the moon with the naked human eye.",
+      "gtVerdict": "false",
+      "predVerdict": "false",
+      "verdictMatch": true,
+      "gtTimestamp": 5,
+      "predTimestamp": 3.2,
+      "timestampError": 1.7999999999999998,
+      "score": 1
+    },
+    {
+      "reelId": "reel_03",
+      "gtText": "The speed of light in a vacuum is approximately 300000 kilometers per second.",
+      "predText": "The speed of light in a vacuum is approximately 300,000 kilometers per second.",
+      "gtVerdict": "true",
+      "predVerdict": "true",
+      "verdictMatch": true,
+      "gtTimestamp": 15.5,
+      "predTimestamp": 9.2,
+      "timestampError": 6.300000000000001,
+      "score": 0.8888888888888888
+    },
+    {
+      "reelId": "reel_04",
+      "gtText": "Venus is the hottest planet in our solar system.",
+      "predText": "Venus is the hottest planet in our solar system",
+      "gtVerdict": "true",
+      "predVerdict": "true",
+      "verdictMatch": true,
+      "gtTimestamp": 2,
+      "predTimestamp": 2,
+      "timestampError": 0,
+      "score": 1
+    },
+    {
+      "reelId": "reel_04",
+      "gtText": "Antibiotics are effective at killing influenza viruses.",
+      "predText": "Antivirals are effective at killing influenza",
+      "gtVerdict": "false",
+      "predVerdict": "false",
+      "verdictMatch": true,
+      "gtTimestamp": 16,
+      "predTimestamp": 16,
+      "timestampError": 0,
+      "score": 0.8
+    },
+    {
+      "reelId": "reel_05",
+      "gtText": "Bananas generate enough electricity to recharge a modern smartphone.",
+      "predText": "ate enough electricity to recharge a modern device",
+      "gtVerdict": "false",
+      "predVerdict": "true",
+      "verdictMatch": false,
+      "gtTimestamp": 2,
+      "predTimestamp": 2,
+      "timestampError": 0,
+      "score": 0.6666666666666666
+    },
+    {
+      "reelId": "reel_07",
+      "gtText": "The Pacific Ocean is the largest ocean on Earth.",
+      "predText": "The Pacific Ocean is the largest ocean on earth.",
+      "gtVerdict": "true",
+      "predVerdict": "true",
+      "verdictMatch": true,
+      "gtTimestamp": 3,
+      "predTimestamp": 2.4,
+      "timestampError": 0.6000000000000001,
+      "score": 1
+    },
+    {
+      "reelId": "reel_07",
+      "gtText": "Sharks are mammals that produce milk for their young.",
+      "predText": "Sharks are mammals that produce milk for their young.",
+      "gtVerdict": "false",
+      "predVerdict": "false",
+      "verdictMatch": true,
+      "gtTimestamp": 14,
+      "predTimestamp": 7,
+      "timestampError": 7,
+      "score": 1
+    },
+    {
+      "reelId": "reel_07",
+      "gtText": "Lightning never strikes the same place twice.",
+      "predText": "Lightning never strikes the same place twice.",
+      "gtVerdict": "false",
+      "predVerdict": "false",
+      "verdictMatch": true,
+      "gtTimestamp": 25,
+      "predTimestamp": 11.4,
+      "timestampError": 13.6,
+      "score": 1
+    },
+    {
+      "reelId": "reel_08",
+      "gtText": "Jupiter's Great Red Spot is a giant spinning storm.",
+      "predText": "Jupiter's Great Red Spot is a giant spinning storm.",
+      "gtVerdict": "true",
+      "predVerdict": "true",
+      "verdictMatch": true,
+      "gtTimestamp": 3,
+      "predTimestamp": 3,
+      "timestampError": 0,
+      "score": 1
+    },
+    {
+      "reelId": "reel_08",
+      "gtText": "Humans only use 10 percent of their brain.",
+      "predText": "Humans only use 10% of their brain.",
+      "gtVerdict": "false",
+      "predVerdict": "false",
+      "verdictMatch": true,
+      "gtTimestamp": 14,
+      "predTimestamp": 8,
+      "timestampError": 6,
+      "score": 1
+    },
+    {
+      "reelId": "reel_08",
+      "gtText": "Sound waves travel faster through air than through solid steel.",
+      "predText": "Sound waves travel faster through air than through solid steel.",
+      "gtVerdict": "false",
+      "predVerdict": "false",
+      "verdictMatch": true,
+      "gtTimestamp": 25,
+      "predTimestamp": 12,
+      "timestampError": 13,
+      "score": 1
+    },
+    {
+      "reelId": "reel_09",
+      "gtText": "The human heart pumps thousands of gallons of blood each day.",
+      "predText": "The human heart pumps thousands of gallons of blood each day.",
+      "gtVerdict": "true",
+      "predVerdict": "true",
+      "verdictMatch": true,
+      "gtTimestamp": 3,
+      "predTimestamp": 3.2,
+      "timestampError": 0.20000000000000018,
+      "score": 1
+    },
+    {
+      "reelId": "reel_09",
+      "gtText": "Cracking your knuckles causes arthritis in your fingers.",
+      "predText": "Cracking your knuckles causes arthritis in your fingers.",
+      "gtVerdict": "false",
+      "predVerdict": "false",
+      "verdictMatch": true,
+      "gtTimestamp": 14,
+      "predTimestamp": 8.2,
+      "timestampError": 5.800000000000001,
+      "score": 1
+    },
+    {
+      "reelId": "reel_09",
+      "gtText": "Drinking pure water completely cures all forms of cancer.",
+      "predText": "Drinking pure water completely cures all forms of cancer.",
+      "gtVerdict": "false",
+      "predVerdict": "false",
+      "verdictMatch": true,
+      "gtTimestamp": 25,
+      "predTimestamp": 13.2,
+      "timestampError": 11.8,
+      "score": 1
+    },
+    {
+      "reelId": "reel_10",
+      "gtText": "The Amazon rainforest is located primarily in South America.",
+      "predText": "The Amazon rainforest is located primarily in South America.",
+      "gtVerdict": "true",
+      "predVerdict": "true",
+      "verdictMatch": true,
+      "gtTimestamp": 3,
+      "predTimestamp": 2.5,
+      "timestampError": 0.5,
+      "score": 1
+    },
+    {
+      "reelId": "reel_10",
+      "gtText": "Vaccines contain tracking microchips connected to 5G cellular networks.",
+      "predText": "Vaccines contain tracking microchips connected to 5G cellular networks.",
+      "gtVerdict": "false",
+      "predVerdict": "false",
+      "verdictMatch": true,
+      "gtTimestamp": 14,
+      "predTimestamp": 8.1,
+      "timestampError": 5.9,
+      "score": 1
+    },
+    {
+      "reelId": "reel_10",
+      "gtText": "Consuming refined sugar is the sole cause of type 1 diabetes.",
+      "predText": "Consuming refined sugar is the sole cause of type 1 diabetes.",
+      "gtVerdict": "false",
+      "predVerdict": "false",
+      "verdictMatch": true,
+      "gtTimestamp": 25,
+      "predTimestamp": 14.5,
+      "timestampError": 10.5,
+      "score": 1
+    }
+  ]
+}

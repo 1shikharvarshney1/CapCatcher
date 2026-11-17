@@ -6,7 +6,9 @@ import fs from 'fs';
 ffmpeg.setFfmpegPath(ffmpegStatic);
 
 export function extractAudio(videoPath, jobId) {
-  const audioPath = path.join('uploads', `${jobId}_audio.wav`);
+  const uploadDir = 'uploads';
+  fs.mkdirSync(uploadDir, { recursive: true });
+  const audioPath = path.join(uploadDir, `${jobId}_audio.wav`);
   return new Promise((resolve, reject) => {
     ffmpeg(videoPath)
       .audioChannels(1)

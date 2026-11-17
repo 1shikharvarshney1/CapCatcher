@@ -1,0 +1,1233 @@
+[
+  {
+    "reelId": "reel_01",
+    "videoFile": "reel_01.mp4",
+    "modality": "speech_only",
+    "transcript": "Welcome back to Daily Science Facts. First, did you know that the human adult body is typically composed of approximately 60% water? Second, Mount Everest is located entirely within the borders of India. Keep following for more daily knowledge.",
+    "ocrText": [
+      "[0.0s] DAILY SCIENCE FACTS"
+    ],
+    "extractedClaims": [
+      {
+        "text": "The human adult body is typically composed of approximately 60% water.",
+        "timestamp": 3,
+        "origin": "speech",
+        "verdict": "true",
+        "rawVerdict": "true",
+        "explanation": "Multiple sources explicitly state that the human adult body is composed of approximately 60% water, with adult males averaging around 60% and general adult body water percentages hovering around this mark.",
+        "citedIds": [
+          "S1",
+          "S2",
+          "S3",
+          "S4"
+        ],
+        "sources": [
+          {
+            "id": "S1",
+            "title": "[FREE] The human body is composed of approximately 60% water.\n\nPlease select the best answer from the choices - brainly.com",
+            "url": "https://brainly.com/question/1232111",
+            "domain": "brainly.com",
+            "snippet": "Your body uses water in all of its cells, organs, and tissues to help maintain other internal activities and control body temperature. The average adult body contains between 57 and 60 percent water. Infants have a substantially higher water content, usually between 77% and 80%, which decreases to 65% by the time they are one year old.\n\nIt's crucial to rehydrate by drinking fluids and consuming foods that contain water because your body loses water through breathing, sweating, and digestion. [...] 1. Age: Infants have a higher water composition, around 75-80%, which decreases as they grow older.\n2. Sex: Adult males often have a slightly higher percentage of water (around 60%) compared to females (approximately 55%), which is due to differences in body fat and muscle mass.\n3. Body Composition: Individuals with more muscle mass tend to have a higher percentage of water compared to those with more body fat, as muscle tissue contains more water than fat tissue. [...] ## Explanation\n\nThe statement \"The human body is composed of approximately 60% water\" is true.\n\nWater is a vital component of the human body, making up a significant percentage of body mass. For adults, this percentage is typically around 50-65%, with many sources stating approximately 60% as an average. This percentage can vary based on several factors:",
+            "tier": 3
+          },
+          {
+            "id": "S2",
+            "title": "What percentage of the human body is water?",
+            "url": "https://www.medicalnewstoday.com/articles/what-percentage-of-the-human-body-is-water",
+            "domain": "medicalnewstoday.com",
+            "snippet": "People can maintain the balance of water in their bodies by drinking fluids throughout the day. They may need to drink more water after exercise and in hot weather.\n\nThe percentage of water in the body varies slightly, depending on factors such as age and sex, but is usually within the 50 to 75% range. For most people, up to 60% of the human adult body is water. [...] »LEARN MORE:What happens if you drink too much water?\n\nA majority of the human body consists of water. The percentage varies with age, sex, and body type but is usually around 60%. A person can maintain the balance of water in the body by taking in enough fluids during the day.\n\nWater is crucial to keep the body working correctly. It is present in the blood, skin, organs, and bones. There is water in every cell of the body, from the brain to the teeth. [...] Most of the human body is water, with an average of roughly 60%. The amount of water in the body can change slightly with different factors, such as age, sex, and hydration levels.\n\nMost of the human body consists of water. However, the exact value can vary between individuals and due to different factors such as age.",
+            "tier": 3
+          },
+          {
+            "id": "S3",
+            "title": "The Water in You: Water and the Human Body | U.S. Geological Survey",
+            "url": "https://www.usgs.gov/water-science-school/science/water-you-water-and-human-body",
+            "domain": "usgs.gov",
+            "snippet": "According to Dr. Jeffrey Utz, Neuroscience, pediatrics, Allegheny University, different people have different percentages of their bodies made up of water. Babies have the most, being born at about 78%. By one year of age, that amount drops to about 65%. In adult men, about 60% of their bodies are water. However, fat tissue does not have as much water as lean tissue. In adult women, fat makes up more of the body than men, so they have about 55% of their bodies made of water. Thus: [...] According to Dr. Jeffrey Utz, Neuroscience, pediatrics, Allegheny University, different people have different percentages of their bodies made up of water. Babies have the most, being born at about 78%. By one year of age, that amount drops to about 65%. In adult men, about 60% of their bodies are water. However, fat tissue does not have as much water as lean tissue. In adult women, fat makes up more of the body than men, so they have about 55% of their bodies made of water. Thus: [...] Think of what you need to survive, really just survive. Food? Water? Air? Facebook? Naturally, I'm going to concentrate on water here. Water is of major importance to all living things; in some organisms, up to 90% of their body weight comes from water. Up to 60% of the human adult body is water.",
+            "tier": 3
+          },
+          {
+            "id": "S4",
+            "title": "Body Water - an overview",
+            "url": "https://www.sciencedirect.com/topics/immunology-and-microbiology/body-water",
+            "domain": "sciencedirect.com",
+            "snippet": "Water is the most abundant constituent of the body. Although it is said to constitute approximately 60% of body mass, the actual percentage of body weight due to water in any individual depends on the relative proportions of muscle and fat in the body. Skeletal muscle is the largest organ in the body, and about half of total body water is located in the ICF and ECF compartments of muscle. Because neutral fat does not dissolve in water, triglycerides are stored in fat cells without water. [...] Water provides 60 percent of a person’s body weight. In an average 150-pound person, this amount equals about 90 pounds of water. The remaining 60 pounds is divided between body fat and stored protein in muscles, carbohydrates, vitamins and minerals. [...] In terms of survivability, water is the single most important nutrient for the body. Although animals can live after losing almost all of their body fat and more than half of their protein, a loss of only 10% of body water results in death.21 Approximately 70% of lean adult body weight is water, and many tissues in the body are composed of between 70% and 90% water. Intracellular fluid is approximately 40% to 45% of the body’s weight, and extracellular fluid accounts for 20% to 25%. The",
+            "tier": 3
+          }
+        ],
+        "citationValid": true
+      },
+      {
+        "text": "Mount Everest is located entirely within the borders of India.",
+        "timestamp": 10.2,
+        "origin": "speech",
+        "verdict": "false",
+        "rawVerdict": "false",
+        "explanation": "Mount Everest is not located within India, but rather sits on the international border between Nepal and China (Tibet Autonomous Region).",
+        "citedIds": [
+          "S2",
+          "S3",
+          "S4",
+          "S5"
+        ],
+        "sources": [
+          {
+            "id": "S2",
+            "title": "Where is Mt Everest located? Location, Map, Country & Height",
+            "url": "https://www.nepalhikingteam.com/where-is-mount-everest",
+            "domain": "nepalhikingteam.com",
+            "snippet": "No, Mount Everest is not located in India; it sits on the border between Nepal and China (Tibet Autonomous Region). While India was involved in early surveys and its tectonic plates are responsible for the Himalayas' formation, Mount Everest's summit is located in Nepal and Tibet.\n\n### Which country is close to Mount Everest? [...] Mount Everest is located on the international border between Nepal (to the south) and Tibet (China), within the Mahalangur sub-range of the Himalayas. Mount everest is not in India & Pakistan and it is true. It stands on the Tibetan Plateau and is a shared natural wonder between these two regions, with the summit sitting precisely on the international border. On the Nepalese side, Mt Everest is located in the Solukhumbu District and Sagarmatha National Park, while on the Chinese side, it is in [...] ## Where is Mt Everest located: Nepal, India, China, or Pakistan?\n\nWhich country owns Mount Everest? Everest Geographic Location: Mount Everest is located on the border between Nepal and the Tibet Autonomous Region of China, in the Mahalangur Himal sub-range of the Himalayas. Mount Everest is not located in India, and it is the truth.",
+            "tier": 3
+          },
+          {
+            "id": "S3",
+            "title": "How Far is Mt. Everest From India's Border? - AZscience.blog",
+            "url": "https://azscience.blog/everest-india-border",
+            "domain": "azscience.blog",
+            "snippet": "It's crucial to remember that Mount Everest sits squarely on the border between Nepal and China (Tibet). The summit itself is the demarcation line. This positioning immediately complicates any simple \"straight-line\" calculation to India, as the route must circumnavigate either Nepalese or Chinese territory.\n\n#### Proximity Considerations [...] Mount Everest, a peak within the Mahalangur Himal sub-range of the Himalayas, stands as a defining geological feature for both Nepal and the People's Republic of China. The Indo-Nepal border region is critically important when assessing how far is Mt. Everest from India's border, since the Survey of India utilizes this border as a reference. Because this border is not contiguous with the country of India, the answer to the question of how far Mt. Everest is from the Indian border involves [...] The mountain's immediate surroundings are exclusively either Nepalese or Chinese (Tibetan). Any measurement to India must, therefore, account for this initial distance from the summit to a point where a direct route towards Indian territory becomes geographically and politically feasible.\n\n### Defining the Relevant Indian Border\n\nThe Indian border, in relation to Mount Everest, requires specific delimitation.\n\n#### India-Nepal Border\n\nThe most pertinent border is that between India and Nepal.",
+            "tier": 3
+          },
+          {
+            "id": "S4",
+            "title": "Where Is Mount Everest Located? Where Is Mount Everest?",
+            "url": "https://www.tibettravel.org/tibet-travel-advice/location-of-mount-everest.html",
+            "domain": "tibettravel.org",
+            "snippet": "It is located in the southwestern part of Tibet (China) and the northeastern part of Nepal. The Mount Everest region is in central east Asia, sitting between the Indian subcontinent and the People's Republic of China.\n\nmap of mount everest and nepal and tibetMt. Everest Nepal Tibet Map.\n\n## 2. Is Mount Everest located in Nepal or China?\n\nThe border between China and Nepal follows a line that passes through the exact peak of Mount Everest, making it half in China and half in Nepal. [...] ## Conclusion\n\nMount Everest, the highest peak of the Himalayas in the world, is located on the border of China and Nepal. The southern approach from Nepal is preferred for climbing Everest, while the northern side in Tibet is more convenient and has the best views. Both sides offer mature tourist conditions, allowing you to feel charm of the Everest. [...] Mount Lhotse - Lhotse is the fourth highest mountain in the world, at 8,511 meters, and sits connected to Everest, also straddling the China-Nepal border. The mountain is a dangerous climb for mountaineers due to the rocky slopes, and was not summated until 1956, after Everest had been conquered.\n\nMount Everest - Located on the border of China and Nepal, Mount Everest is the highest mountain in the world. It is known as Sagarmāthā in Nepal and as Qomolangma in Tibet.",
+            "tier": 3
+          },
+          {
+            "id": "S5",
+            "title": "Nepal Earthquake Moved Mount Everest - Business Insider",
+            "url": "https://www.businessinsider.com/nepal-earthquake-moved-mount-everest-2015-6",
+            "domain": "businessinsider.com",
+            "snippet": "Even though the massive mountain shifted, its height — just over 29,000 feet — stayed the same. And several other surrounding mountains moved as well.\n\nEverest, located in the Himalayas on the border between China and Nepal, is world's tallest mountain (unless you're measuring from beneath the ocean.) It was created roughly 60 millions years ago when the Indian tectonic plate smashed up against the Eurasian plate. [...] Normally, the massive, tectonic plates resting beneath India and Eurasia are \"locked together,\" so they move as one, Richard Briggs, a geologist at the US Geological Survey (USGS) in Golden, Colorado, told Business Insider. In between quakes, there's a steady buildup of strain energy as India pushes into Eurasia, slowly shoving the high Himalayas toward Tibet.\n\nBut during the quake, that motion was suddenly reversed, and Everest was pushed in the opposite direction.",
+            "tier": 3
+          }
+        ],
+        "citationValid": true
+      }
+    ],
+    "timings": {
+      "ffmpeg": 8.2970528,
+      "transcription": 17.162316199999996,
+      "ocr": 2.1837863000000035,
+      "claimExtraction": 2.620940599999998,
+      "evidenceSearch": 0.3154022999999979,
+      "verification": 1.8333943,
+      "total": 32.413214599999996
+    }
+  },
+  {
+    "reelId": "reel_02",
+    "videoFile": "reel_02.mp4",
+    "modality": "speech_only",
+    "transcript": "Quick health digest coming at you fast. First claim, drinking coffee significantly increases cardiovascular disease mortality in healthy adults. Second claim, drinking warm lemon water cures type 2 diabetes within 48 hours. Listen closely and think carefully before believing health trends online.",
+    "ocrText": [],
+    "extractedClaims": [
+      {
+        "text": "Drinking coffee significantly increases cardiovascular disease mortality in healthy adults.",
+        "timestamp": 2,
+        "origin": "speech",
+        "verdict": "false",
+        "rawVerdict": "false",
+        "explanation": "The provided sources directly contradict the claim, showing instead that coffee consumption is associated with a reduced risk of cardiovascular disease mortality or lower overall cardiovascular risk.",
+        "citedIds": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "sources": [
+          {
+            "id": "S1",
+            "title": "Impact of Coffee Consumption on Cardiovascular Health",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10262944",
+            "domain": "pmc.ncbi.nlm.nih.gov",
+            "snippet": "The cohort study of Lopez-Garcia et al (2008) revealed an inverse relationship between coffee consumption and all-cause mortality, principally because of a moderate reduction in risk for cardiovascular disease–related mortality in both males (P for trend=0.008) and females (P for trend <0.001).39 The authors noted that a possible mechanism for such an outcome was the strong antioxidant capacity of coffee compounds other than caffeine such as chlorogenic acid, ferulic acid, and p-Coumaric acid. [...] of deaths from all categories was 450,256; among coffee consumers, the intakes with the lowest RRs were 3.5 cups per day for all-cause mortality (RR 0.85, 95% CI 0.82 to 0.89), 2.5 cups per day for cardiovascular disease mortality (RR 0.83, 95% CI 0.80 to 0.87), and 2 cups per day for cancer mortality (RR 0.96, 95% CI, 0.94 to 0.99). The inverse relationship between mortality and coffee consumption in nonsmokers (RR 0.95, 95% CI 0.93 to 0.97) was slightly stronger than in smokers (RR 0.97, 95% [...] CI 0.45 to 0.65, P<0.00001). Heavy coffee drinkers vs light coffee drinkers had a risk ratio of 0.69 (95% CI 0.58 to 0.83, P<0.0001).29 These results were supported by a 2020 meta-analysis of 6 prospective studies showing that coffee consumption was associated with lower risk of cardiovascular mortality (hazard ratio [HR] 0.70, 95% CI 0.54 to 0.91, I2=0%; 2 studies) and not associated with an increased risk of all-cause mortality (HR 0.85, 95% CI 0.63 to 1.13, I2=50%; 3 studies), recurrent",
+            "tier": 1
+          },
+          {
+            "id": "S2",
+            "title": "Morning coffee may protect the heart better than all-day coffee drinking | Celia Scott Weatherhead School of Public Health and Tropical Medicine",
+            "url": "https://sph.tulane.edu/morning-coffee-may-protect-heart-better-all-day-coffee-drinking",
+            "domain": "sph.tulane.edu",
+            "snippet": "“During a median follow-up of almost a decade, and after adjustment for caffeinated and decaffeinated coffee intake, the amounts of cups per day, sleep hours, and other confounders, the morning-type, rather than the all-day-type pattern, was significantly associated with lower risks of all-cause mortality with a hazard ratio of 0.84 and of cardiovascular mortality of even 0.69 as compared with non-coffee drinkers. [...] People who drink coffee in the morning have a lower risk of dying from cardiovascular disease and a lower overall mortality risk compared to all-day coffee drinkers, according to research published in the European Heart Journal today.\n\nThe research was led by HCA Regents Distinguished Chair and Professor Dr. Lu Qi of the Celia Scott Weatherhead School of Public Health and Tropical Medicine at Tulane University. [...] Compared with people who did not drink coffee, morning coffee drinkers were 16 percent less likely to die of any cause and 31 percent less likely to die of cardiovascular disease. However, there was no reduction in risk for all-day coffee drinkers compared to non-coffee drinkers.",
+            "tier": 3
+          },
+          {
+            "id": "S3",
+            "title": "Morning coffee may protect the heart better than all-day coffee drinking",
+            "url": "https://www.escardio.org/news/press/press-releases/morning-coffee-may-protect-the-heart-better-than-all-day-coffee-drinking",
+            "domain": "escardio.org",
+            "snippet": "“During a median follow-up of almost a decade, and after adjustment for caffeinated and decaffeinated coffee intake, the amounts of cups per day, sleep hours, and other confounders, the morning-type, rather than the all-day-type pattern, was significantly associated with lower risks of all-cause mortality with a hazard ratio of 0.84 and of cardiovascular mortality of even 0.69 as compared with non-coffee drinkers. [...] Topic(s): Preventive Cardiology\n\nSophia Antipolis, 8 January 2025: People who drink coffee in the morning have a lower risk of dying from cardiovascular disease and a lower overall mortality risk compared to all-day coffee drinkers, according to research published in the European Heart Journal  today (Wednesday). [...] Compared with people who did not drink coffee, morning coffee drinkers were 16% less likely to die of any cause and 31% less likely to die of cardiovascular disease. However, there was no reduction in risk for all-day coffee drinkers compared to non-coffee drinkers.",
+            "tier": 3
+          },
+          {
+            "id": "S4",
+            "title": "Coffee and heart health: How many cups of caffeinated coffee are safe to drink each day? | American Heart Association",
+            "url": "https://newsroom.heart.org/news/coffee-and-heart-health-how-many-cups-of-caffeinated-coffee-are-safe-to-drink-each-day",
+            "domain": "newsroom.heart.org",
+            "snippet": "The latest research indicates that consuming up to 400 mg of caffeine/day (equivalent to up to 5, 8-ounce cups of caffeinated coffee per day) is generally safe for most adults and appears to be linked to a lower risk of several cardiovascular conditions, including heart failure, heart disease and stroke in some individuals. [...] Effects on heart disease and stroke: Drinking 2-4 cups of caffeinated coffee per day was linked to a lower risk of heart disease, heart failure and stroke. However, drinking more than 4 cups of caffeinated coffee a day may increase the risk of heart failure.\n\nNot all sources of caffeine are the same [...] Consuming caffeinated coffee without added sugars, flavors or cream was linked to a lower risk of Type 2 diabetes, heart disease, stroke, heart failure and some irregular heart rhythms.\n Randomized trials, the most rigorous and reliable type of study design, have shown that caffeine consumption in coffee is associated with a lower risk of atrial fibrillation but also a higher risk of premature ventricular contractions.",
+            "tier": 3
+          }
+        ],
+        "citationValid": true
+      },
+      {
+        "text": "Drinking warm lemon water cures type 2 diabetes within 48 hours.",
+        "timestamp": 6.5,
+        "origin": "speech",
+        "verdict": "false",
+        "rawVerdict": "false",
+        "explanation": "The sources explicitly state that there is no known cure for diabetes and that lemon water does not cure or reverse the underlying condition.",
+        "citedIds": [
+          "S1"
+        ],
+        "sources": [
+          {
+            "id": "S1",
+            "title": "Does Drinking Lemon Water Affect Diabetes? The Honest, Science-Backed Answer You Need",
+            "url": "https://tap.health/does-drinking-lemon-water-affect-diabetes",
+            "domain": "tap.health",
+            "snippet": "|  |  |\n---|\n| Lemon water “alkalizes” your blood and cures diabetes | Your blood pH is tightly controlled. Lemon water doesn’t change it. It doesn’t cure diabetes. |\n| Lemon water burns fat | No. It doesn’t melt fat. But it can help you eat less and drink fewer calories. |\n| You must drink it on an empty stomach | Not true. It works anytime. Morning is popular, but lunchtime or after dinner is fine too. | [...] If you have diabetes—or are worried about getting it—drink lemon water.\n\nNot because it’s trendy.\n\nBut because it’s smart.\n\n## Frequently Asked Questions (FAQ) on Does Drinking Lemon Water Affect Diabetes?\n\n### Q1: Can lemon water cure diabetes?\n\nNo. There is no known cure for diabetes—yet. Lemon water helps manage it, but it doesn’t reverse the underlying condition. Always follow your doctor’s advice and take prescribed medications.\n\n### Q2: Is lemon water good for gestational diabetes? [...] Yes—but in a good way.\n\nHere’s the summary:\n\n✔️ Lemon water does not raise blood sugar (it’s very low in carbs)  \n✔️ It helps reduce blood sugar spikes after meals  \n✔️ It replaces sugary drinks, which is huge for diabetes control  \n✔️ It supports weight loss, hydration, and kidney health  \n✔️ It’s safe for both type 1 and type 2 diabetes  \n✔️ It won’t cure diabetes, but it’s a smart, simple tool  \n✔️ It won’t replace medicine, but it complements it  \n✔️ It’s cheap, easy, and delicious",
+            "tier": 3
+          },
+          {
+            "id": "S2",
+            "title": "Why Lemon Water Works for Diabetes — And When to Drink It",
+            "url": "https://www.youtube.com/watch?v=uV2AqXLrbxA",
+            "domain": "youtube.com",
+            "snippet": "[2:30] researchers. That same study didn't just show that lemon juice reduces blood sugar spikes. It found that it actually\n[2:38] delays the spike by more than 35 minutes. Think about how big that is.\n[2:44] Normally, after eating a meal, especially something starchy, you might feel that familiar crash about an hour\n[2:51] later. Your blood sugar shoots up, then drops fast, leaving you tired, foggy, and hungry again. But with lemon water, [...] With over 37 million Americans struggling with type 2 diabetes, daily blood sugar spikes feel exhausting and impossible to control. But new research shows lemon water may help support healthier glucose levels — if you drink it the right way.\n\nIn this video, you’ll learn:\n🔹 The science-backed benefits of lemon water for diabetes\n🔹 The best timing to drink it\n🔹 And the common mistakes that make it far less effective [...] [1:29] happen? Because the citric acid in lemons actually slows down the enzymes that break down starch in your mouth and\n[1:37] stomach. Lemon water makes you digest carbs more slowly so your blood sugar doesn't shoot up like a rocket. For\n[1:46] someone with diabetes, that's huge. It means fewer blood sugar roller coasters, fewer scary spikes after eating things\n[1:54] like pasta, rice, or potatoes, and a rise that's smoother and easier for your body to control. And there's even a",
+            "tier": 3
+          },
+          {
+            "id": "S3",
+            "title": "The Biggest Benefits of Drinking Lemon Water - GoodRx",
+            "url": "https://www.goodrx.com/well-being/diet-nutrition/benefits-of-drinking-lemon-water",
+            "domain": "goodrx.com",
+            "snippet": "Drinking lemon water with your meal may help reduce blood sugar spikes after eating. The acid in lemon juice may slow the breakdown and absorption of some carbohydrate-rich foods, which can lead to a slower glycemic response.\n\nGoodRx icon\n\nThinking about adding flavor packets to your water? Adding lemon juice is a healthier choice. Flavor packets often have added artificial sweeteners, dyes, and other unnecessary ingredients. [...] Sugary drinks are a major source of added sugar in the U.S. diet. And lemon water is a hydrating, no-sugar alternative to soda, juice, sports drinks, and water flavor packets. Swapping out sugary beverages with lemon water is a great way to lower your sugar intake. This can help prevent health conditions like diabetes and heart disease.\n\n### May support heart health [...] ## The bottom line\n\nFor most people, drinking 1 or 2 glasses of lemon water a day is a safe, low-sugar way to boost hydration and add some vitamin C to your diet. It may also have specific benefits, such as helping to prevent certain kidney stones in people who are prone to them. Other claims, including benefits for digestion, blood sugar, and heart health, are promising but less proven.",
+            "tier": 3
+          },
+          {
+            "id": "S4",
+            "title": "Is Lemon And Cucumber Water Good For Diabetes?",
+            "url": "https://healthmatch.io/diabetes/is-lemon-and-cucumber-water-good-for-diabetes",
+            "domain": "healthmatch.io",
+            "snippet": "## The lowdown\n\nIt's tempting to think that something as easy as drinking cucumber and lemon water can drastically reduce diabetes symptoms and improve overall health.\n\nHowever, it is unlikely to provide major health benefits unless it replaces other habits like drinking soda or smoking. Many people find cucumber and lemon water a refreshing beverage, and it may encourage you to drink more water, which can help curb your appetite. [...] The bottom line: Lemon and cucumber water is better than certain drink options (e.g. sugary ones), and it can help you stay hydrated. However, don't reach for lemon and cucumber-infused water with the expectation that it will single-handedly reduce your blood sugars and diabetes symptoms.\n\n## Health benefits of lemon and cucumber water\n\nAlthough lemon and cucumber water may not be the super drink many people with diabetes hope for, it can still provide some health benefits. [...] ## Is lemon and cucumber water good for diabetes?\n\nDrinking lemon and cucumber water can be helpful for diabetes if it replaces sugar-sweetened beverages like sweet tea, soda, or sports drinks. It contains virtually no calories or sugar and may provide your body with small amounts of nutrients from the slices of cucumber and lemon.\n\nStaying hydrated is important for everybody, but it is especially important for people with diabetes, as high blood glucose levels can lead to decreased hydration.",
+            "tier": 3
+          }
+        ],
+        "citationValid": true
+      }
+    ],
+    "timings": {
+      "ffmpeg": 5.099890400000004,
+      "transcription": 11.884997499999997,
+      "ocr": 0.9702737000000052,
+      "claimExtraction": 4.269107400000001,
+      "evidenceSearch": 0.2961895000000004,
+      "verification": 1.5465648999999977,
+      "total": 24.067121699999998
+    }
+  },
+  {
+    "reelId": "reel_03",
+    "videoFile": "reel_03.mp4",
+    "modality": "speech_only",
+    "transcript": "Checking two well-known physical claims today. Number one, the Great Wall of China is easily visible from the moon with the naked human eye. Number two, the speed of light in a vacuum is approximately 300,000 kilometers per second. Science always demands evidence.",
+    "ocrText": [],
+    "extractedClaims": [
+      {
+        "text": "The Great Wall of China is easily visible from the moon with the naked human eye.",
+        "timestamp": 3.2,
+        "origin": "speech",
+        "verdict": "false",
+        "rawVerdict": "false",
+        "explanation": "Astronauts and sources explicitly state that the claim is a myth and that the Great Wall of China is not visible with the naked eye from the moon.",
+        "citedIds": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "sources": [
+          {
+            "id": "S5",
+            "title": "Is it Really Possible to See the Great Wall of China from Space with a Naked Eye?",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3972694",
+            "domain": "pmc.ncbi.nlm.nih.gov",
+            "snippet": "# Is it Really Possible to See the Great Wall of China from Space with a Naked Eye?\n\nNorberto López-Gil\n\nJournal of Optometry · 2010-11-04 · 1(1):3-4 · DOI: 10.3921/joptom.2008.3 · PMCID: PMC3972694",
+            "tier": 1
+          },
+          {
+            "id": "S1",
+            "title": "Can you see the Great Wall of China from space? | Britannica",
+            "url": "https://www.britannica.com/question/Can-you-see-the-Great-Wall-of-China-from-space",
+            "domain": "britannica.com",
+            "snippet": "You typically can’t see the Great Wall of China from space. A popular myth, the claim was disproved when astronauts stated that the Great Wall of China was not visible with the naked eye from the Moon. Due to its coloration and pollution, the structure is only sometimes visible from low orbit and the International Space Station.\n\n_verified_ Cite [...] _verified_ Cite \n\n While every effort has been made to follow citation style rules, there may be some discrepancies. Please refer to the appropriate style manual or other sources if you have any questions. \n\nSelect Citation Style\n\nThe Editors of Encyclopaedia Britannica. \"Can you see the Great Wall of China from space?\". _Encyclopedia Britannica_, 14 Feb. 2025,  Accessed 28 October 2026.\n\nCopy Citation [...] Image 2: Encyclopedia Britannica\n\nSearch Britannica Click here to search\n\nImage 3: Encyclopedia Britannica\n\nSearch Britannica Click here to search\n\nSUBSCRIBE\n\nSUBSCRIBE\n\nLogin\n\nSubscribe to Britannica Premium\n\nSUBSCRIBE TO PREMIUM\n\nAsk the ChatbotGames & QuizzesHistory & SocietyScience & TechBiographiesAnimals & NatureGeography & TravelArts & CultureProConMoneyVideos\n\nGeography & TravelHistoric PlacesGreat Wall of China\n\n Cite \n\n# Can you see the Great Wall of China from space?",
+            "tier": 3
+          },
+          {
+            "id": "S2",
+            "title": "Is China's Great Wall Visible from Space? | Scientific American",
+            "url": "https://www.scientificamerican.com/article/is-chinas-great-wall-visible-from-space",
+            "domain": "scientificamerican.com",
+            "snippet": "Choose a legend: The Great Wall of China is the one of the few man-made structures visible from orbit. Or, more remarkably, it's the only human artifact on Earth visible from the moon. Both are false, say astronauts and remote-sensing specialists. Although the Great Wall spans some 4,500 miles (7,200 kilometers), it's constructed from materials that make it difficult to discern from space. [...] Misinformation about the barrier's visibility dates back decades. A 1932 Ripley's Believe It or Not! cartoon claimed that the wall is \"the mightiest work of man, the only one that would be visible to the human eye from the moon.\" The belief persisted into the Space Age. Since Neil Armstrong returned from the moon in 1969, he has been repeatedly asked whether he could see it. [...] The unglamorous truth is that the wall is only visible from low orbit under a specific set of weather and lighting conditions. And many other structures that are less spectacular from an earthly vantage point—desert roads, for example—appear more prominent from an orbital perspective.",
+            "tier": 3
+          },
+          {
+            "id": "S3",
+            "title": "Great Wall - NASA",
+            "url": "https://www.nasa.gov/image-article/great-wall",
+            "domain": "nasa.gov",
+            "snippet": "### La NASA refuerza Artemis: añade una misión y perfecciona su arquitectura general\n\n1 min read\n\n# Great Wall\n\nProfile image for NASA\n\nNASA\n\nGreat Wall\n\nThe Great Wall of China and Inner Mongolia are featured in this image photographed by Expedition 10 Commander Leroy Chiao on the International Space Station.  \nDespite myths to the contrary, the wall isn’t visible from the moon, and is difficult or impossible to see from Earth orbit without the high-powered lenses used for this photo. [...] Image Credit: NASA\n\nNASA Logo\n\n### National Aeronautics and Space Administration\n\nNASA explores the unknown in air and space, innovates for the benefit of humanity, and inspires the world through discovery.\n\n### Follow NASA\n\n## Was this page helpful? [...] What’s Up: November 2026 Skywatching Tips from NASA\n\n### What’s Up: November 2026 Skywatching Tips from NASA\n\n### Missions\n\n### Humans in Space\n\n### Earth\n\n### The Solar System\n\n### The Universe\n\n### Science\n\n### Aeronautics\n\n### Technology\n\n### Learning Resources\n\n### About NASA\n\n### NASA en Español\n\n### News & Events\n\n### Multimedia\n\n### Featured\n\nNASA Invites Media, Public to Join Voyager 1 One-Light Day Activities\n\n### NASA Invites Media, Public to Join Voyager 1 One-Light Day Activities",
+            "tier": 3
+          }
+        ],
+        "citationValid": true
+      },
+      {
+        "text": "The speed of light in a vacuum is approximately 300,000 kilometers per second.",
+        "timestamp": 9.2,
+        "origin": "speech",
+        "verdict": "true",
+        "rawVerdict": "true",
+        "explanation": "Multiple sources explicitly state that light travels at approximately 300,000 kilometers per second in a vacuum.",
+        "citedIds": [
+          "S1",
+          "S2",
+          "S3",
+          "S4"
+        ],
+        "sources": [
+          {
+            "id": "S1",
+            "title": "speed of light in vacuum is _____​ - Brainly.in",
+            "url": "https://brainly.in/question/34069942",
+            "domain": "brainly.in",
+            "snippet": "Light travels at approximately 300,000 kilometers per second in a vacuum, which has a refractive index of 1.0, but it slows down to 225,000 kilometers per second in water (refractive index of 1.3; see Figure 2) and 200,000 kilometers per second in glass (refractive index of 1.5).\n\nExplore all similar answers\n\n \n\nThanks 2\n\nrating answer section\n\nAnswer rating 0.0\n\n(0 votes)\n\n## Answer\n\n12 people found it helpful\n\nBrainly User \n\nBrainly User \n\n## approximately 300,000 kilometers per second [...] Explanation:\n\nLight travels at approximately 300,000 kilometers per second in a vacuum, which has a refractive index of 1.0, but it slows down to 225,000 kilometers per second in water and 200,000 kilometers per second in glass.\n\nmaybe helpfull......\n\nExplore all similar answers\n\n \n\nThanks 1\n\nrating answer section\n\nAnswer rating 4.0\n\n(1 vote)\n\nAdvertisement\n\n## Loved by our community\n\n23 people found it helpful\n\nBrainly User \n\nBrainly User \n\n3 × 10 power 8 is speed of light in vaccum [...] ### Light travels at approximately 300,000 kilometers per second in a vacuum, which has a refractive index of 1.0, but it slows down to 225,000 kilometers per second in water (refractive index of 1.3; see Figure 2) and 200,000 kilometers per second in glass (refractive index of 1.5).\n\nExplore all similar answers\n\n \n\nThanks 12\n\nrating answer section\n\nAnswer rating 5.0\n\n(2 votes)\n\n## Answer\n\n3 people found it helpful\n\nImage 9: author link\n\n \n\nItzSiddhi3009 \n\nItzSiddhi3009 \n\nAnswer:",
+            "tier": 3
+          },
+          {
+            "id": "S2",
+            "title": "[FREE] Select the correct choice.\n\nWhat is the speed of light in a vacuum?\n\nA. 30,000 m/s \nB. 330 m/s \nC. 300,000 - brainly.com",
+            "url": "https://brainly.com/question/40995449",
+            "domain": "brainly.com",
+            "snippet": "## Explanation\n\nThe speed of light in a vacuum is a fundamental constant of nature, denoted by the symbol 'c'. It is approximately equal to 300,000 kilometers per second. Specifically, the value of the speed of light is 299,792,458 meters per second (or 299,792.458 kilometers per second). This value is crucial for various fields of physics, especially in theories concerning relativity. [...] ## Explanation\n\nThe correct choice is 300,000 km/s. The speed of light in a vacuum is a fundamental constant of nature and it is denoted by the symbol 'c'. In a vacuum, light travels at a speed of approximately 300,000 kilometers per second (km/s). This value is constant and does not depend on the direction or wavelength of light.\n\n### Learn more about speed of light in a vacuum here:\n\nbrainly.com/question/32276098\n\nAnswered by •110 answers•9.3K people helped\n\n0.0\n\n(0 votes) [...] 0.0\n\n(0 votes)\n\n## Textbook & Expert-Verified⬈(opens in a new tab)\n\nfor a more relevant answer\n\nThe speed of light in a vacuum is approximately 300,000 kilometers per second, or 299,792,458 meters per second. This speed, denoted by 'c', is a fundamental constant in physics. Therefore, the correct choice from the options is C. 300,000 km/s.\n\n## Explanation",
+            "tier": 3
+          },
+          {
+            "id": "S3",
+            "title": "Speed of Light in Microscopy | Light & Color Guide | Evident",
+            "url": "https://evidentscientific.com/en/microscope-resource/knowledge-hub/lightandcolor/speedoflight",
+            "domain": "evidentscientific.com",
+            "snippet": "When light traveling through the air enters a different medium, such as glass or water, the speed and wavelength of light are reduced (see Figure 2), although the frequency remains unaltered. Light travels at approximately 300,000 kilometers per second in a vacuum, which has a refractive index of 1.0, but it slows down to 225,000 kilometers per second in water (refractive index of 1.3; see Figure 2) and 200,000 kilometers per second in glass (refractive index of 1.5). In diamond, with a rather [...] The speed of light, which scientists have thoroughly examined, is now expressed as a constant value denoted in equations by the symbol c. Not truly a constant, but rather the maximum speed in a vacuum, the speed of light in km, which is almost 300,000 kilometers per second, can be manipulated by changing media or with quantum interference. [...] The next in line to provide a useful estimate of the speed of light was the British physicist James Bradley. In 1728, a year after Newton's death, Bradley estimated the speed of light in a vacuum to be approximately 301,000 kilometers per second, using stellar aberrations. These phenomena are manifested by an apparent variation in the position of stars due to the motion of the Earth around the sun. The degree of stellar aberration can be determined from the ratio of the Earth's orbital speed to",
+            "tier": 3
+          },
+          {
+            "id": "S4",
+            "title": "How Fast Is the Speed of Light, and How Was It First Measured?",
+            "url": "https://physicsfundamentals.org/blog/speed-of-light",
+            "domain": "physicsfundamentals.org",
+            "snippet": "The speed of light is c = 299,792,458 m/s — exactly, not approximately. In round numbers: 3 × 10⁸ m/s, or about 300,000 km/s. In imperial units that is about 186,282 miles per second, or roughly 670.6 million miles per hour (mph). Since 1983 this value has been fixed by definition; the metre is now derived from c, not the other way around. Light covers the Moon's distance in about 1.3 seconds and the Sun's in 8.3 minutes.\n\nSpeed of light in a vacuum — quick reference [...] Light covers approximately 300,000 km every second. The Moon is about 384,400 km from Earth — light takes about 1.28 seconds to reach it. The Sun is 149.6 million km away — light takes about 8 minutes 20 seconds to reach Earth from the Sun.\n\n## What Is the Speed of Light in Miles Per Hour and Miles Per Second?\n\nConverting c to imperial units uses the same approach — divide by the length of a mile (exactly 1,609.344 m) rather than a kilometre.\n\n### Speed of light in miles per second [...] The speed of light in a vacuum is exactly c = 299,792,458 m/s. This is not a measured approximation — since 1983, the General Conference on Weights and Measures fixed c at this exact value and redefined the metre accordingly. One metre is now defined as the distance light travels in exactly 1/299,792,458 of a second.",
+            "tier": 3
+          }
+        ],
+        "citationValid": true
+      }
+    ],
+    "timings": {
+      "ffmpeg": 5.111015000000006,
+      "transcription": 14.317329899999997,
+      "ocr": 1.1681436000000103,
+      "claimExtraction": 1.116083599999998,
+      "evidenceSearch": 0.5169823000000033,
+      "verification": 1.7290918999999993,
+      "total": 23.958774
+    }
+  },
+  {
+    "reelId": "reel_04",
+    "videoFile": "reel_04.mp4",
+    "modality": "text_only",
+    "transcript": "",
+    "ocrText": [
+      "[2.0s] s 1s the hottest planet in our solar sys",
+      "[16.0s] ics are effective at killing influenza J"
+    ],
+    "extractedClaims": [
+      {
+        "text": "Venus is the hottest planet in our solar system",
+        "timestamp": 2,
+        "origin": "screen",
+        "verdict": "true",
+        "rawVerdict": "true",
+        "explanation": "Multiple sources explicitly state that Venus is the hottest planet in our solar system due to its thick atmosphere trapping heat.",
+        "citedIds": [
+          "S1",
+          "S2",
+          "S3",
+          "S4"
+        ],
+        "sources": [
+          {
+            "id": "S1",
+            "title": "Venus: Facts - NASA Science",
+            "url": "https://science.nasa.gov/venus/venus-facts",
+            "domain": "science.nasa.gov",
+            "snippet": "Venus is similar in structure and size to Earth, and is sometimes called Earth's evil twin. Its thick atmosphere traps heat in a runaway greenhouse effect, making it the hottest planet in our solar system with surface temperatures hot enough to melt lead — about 872 degrees Fahrenheit (467 Celsius). And the atmospheric pressure at the surface is about 93 times what it is at sea level on Earth. Below Venus' dense, persistent clouds, the surface has volcanoes and deformed mountains.\n\n## Namesake [...] Venus is the hottest planet in our solar system, with surface temperatures about 872 degrees Fahrenheit (467 Celsius). And atmospheric pressure at the surface squeezes with the same force as being more than 3,000 feet underwater on Earth (930 meters). The Soviet Union sent a series of probes to Venus between 1961 and 1984 as part of its Venera program (Venera is Russian for Venus). Ten probes made it to the surface, and a few functioned briefly after landing. The longest survivor lasted two [...] article  8 months ago 6 min read\n\n### La NASA refuerza Artemis: añade una misión y perfecciona su arquitectura general\n\narticle  9 months ago\n\n## Our Solar System\n\n# Venus Facts\n\nVenus is the second planet from the Sun, and our closest planetary neighbor. It's the hottest planet in our solar system, and is sometimes called Earth's twin.\n\nIntroduction\n\nNamesake\n\nPotential for Life\n\nSize and Distance\n\nOrbit and Rotation\n\nMoons\n\nRings\n\nFormation\n\nStructure\n\nSurface\n\nAtmosphere\n\nMagnetosphere",
+            "tier": 3
+          },
+          {
+            "id": "S2",
+            "title": "Venus | National Air and Space Museum",
+            "url": "https://airandspace.si.edu/explore/stories/venus",
+            "domain": "airandspace.si.edu",
+            "snippet": "Disk image of Venus, a orangeish-brown rocky planet.\n\n# Venus\n\nThe Hottest Planet in Our Solar System\n\nVenus is about the same size as Earth, but a very different planet. It rotates in a backward direction, a characteristic it shares with Uranus. Venus is nearer the Sun than Earth and has a very thick atmosphere, the surface temperature is extremely high, as much as 475° Celsius (900° Fahrenheit). [...] The surface of Venus is extremely hot. When an impact creates a crater, some of the ejecta is hot and fluid. Flows of this molten material, called impact melt, can extend for long distances, as shown by this radar image of Addams crater (54 miles/ 87 kilometers across).\n\nA black and white image showing multiple circular impacts on a dark grey surface. \n\n## The Atmosphere [...] ## The Atmosphere\n\nVenus has a very thick, hot, carbon dioxide atmosphere. Its surface pressure is more than 90 times that of Earth’s. Winds in the upper atmosphere of Venus travel 110–220 mph (180 – 360 km/h).\n\nAn atmosphere can slow down an incoming object or melt it completely. The atmosphere of Venus is so dense that some objects break apart and form clustered impact craters, like those seen in this image.\n\nHemispheric View of Venus\n\n## Tectonics",
+            "tier": 3
+          },
+          {
+            "id": "S3",
+            "title": "Venus",
+            "url": "https://science.nasa.gov/venus",
+            "domain": "science.nasa.gov",
+            "snippet": "6 min read\n\n### La NASA refuerza Artemis: añade una misión y perfecciona su arquitectura general\n\narticle  9 months ago\n\n# Venus\n\nVenus is the second planet from the Sun, and the sixth largest planet. It’s the hottest planet in our solar system.\n\n## Facts About Venus\n\nVenus is the second planet from the Sun, and the sixth largest planet. It’s the hottest planet in our solar system.\n\nVenus is a cloud-swaddled planet and our nearest planetary neighbor. It has a surface hot enough to melt lead. [...] Explore\n\nThe surface of Venus is an inferno with temperatures hot enough to melt lead. This image is a composite of data from NASA's Magellan spacecraft and Pioneer Venus Orbiter.\n\nNASA/JPL-Caltech\n\n## Venus Resources\n\nExplore a curated collection of resources about Venus.\n\nThese resources include activities that can be done at home, as well as videos, animations, printable graphics, and podcasts.\n\nGet Resources",
+            "tier": 3
+          },
+          {
+            "id": "S4",
+            "title": "NASA Is Sending 2 Probes to Venus to Map the 'Inferno-Like World' - Business Insider",
+            "url": "https://www.businessinsider.com/nasa-discovery-program-new-missions-to-explore-venus-2021-6",
+            "domain": "businessinsider.com",
+            "snippet": "Venus is Earth's hot and hellish twin. The two planets are similar in size, density, and surface composition, yet Venus is the hottest planet in our solar system. Its average surface temperature is a blistering 880 degrees Fahrenheit (471 degrees Celsius).\n\nNelson said the upcoming missions could help scientists figure out what causes Venus' extreme temperatures.",
+            "tier": 3
+          }
+        ],
+        "citationValid": true
+      },
+      {
+        "text": "Antivirals are effective at killing influenza",
+        "timestamp": 16,
+        "origin": "screen",
+        "verdict": "false",
+        "rawVerdict": "false",
+        "explanation": "The sources state that antivirals work by inhibiting the development and replication of the virus rather than killing it outright.",
+        "citedIds": [
+          "S1"
+        ],
+        "sources": [
+          {
+            "id": "S3",
+            "title": "Antiviral agents active against influenza A viruses",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7097821",
+            "domain": "pmc.ncbi.nlm.nih.gov",
+            "snippet": "effectively cleave sialic-acid receptors used by both human and avian influenza viruses. DAS181 showed potent antiviral and cell-protective efficacies against a panel of laboratory strains and clinical isolates of influenza A and influenza B, with virus-replication inhibition EC50 values in the range of 0.04–0.9 nM. Significant in vivo efficacy of the sialidase fusion construct was noted in both prophylactic and therapeutic approaches82. [...] In vivo, peramivir was found to strongly suppress influenza A (H1N1) infection in mice following a single intramuscular injection (10 mg kg−1). This was ascribed to tight binding of peramivir to neuraminidase68. Similarly, a single intramuscular/intravenous injection of peramivir one hour before virus exposure offered protection against influenza A (H5N1) in mice69. When given orally to humans, however, peramivir did not offer robust protection against human influenza A infection, which was [...] GG167)30 and oseltamivir (Tamiflu, GS4071 ethyl ester, GS4104, Ro64-0796)31 (Fig. 5a). Both compounds have been found to be highly potent inhibitors (IC50 ≤ 1 ng ml−1) of the influenza neuraminidase, to inhibit influenza A and B virus replication in vitro and in vivo (mice, ferrets), to be well tolerated, and to be both prophylactically (significant reduction in number of ill subjects) and therapeutically (significant reduction in duration of illness) effective against influenza A and B virus",
+            "tier": 1
+          },
+          {
+            "id": "S1",
+            "title": "Antibiotics vs. Antivirals: What's the Best Treatment? - Families Fighting Flu",
+            "url": "https://familiesfightingflu.org/antibiotics-vs-antivirals-whats-the-best-treatment",
+            "domain": "familiesfightingflu.org",
+            "snippet": "If you catch the flu, antivirals can be beneficial when taken within the first few days of experiencing symptoms. Antivirals like oseltamivir (Tamiflu) can reduce flu symptoms and shorten the duration of the illness if taken within the first 48 hours of symptom onset. [...] Antivirals are medications designed to treat viral infections. They work by inhibiting the development of the virus rather than killing it outright. Antivirals can help reduce the severity and duration of a viral infection but are ineffective against bacterial infections.\n\nSome of the most common viral infections treated with antivirals include:\n\n Influenza (the flu)\n Herpes simplex virus (cold sores and genital herpes)\n HIV\n Hepatitis B and C\n\n## When Should You Take Antivirals? [...] Antivirals should be taken as prescribed by a healthcare professional. For example, if you have the flu, taking an antiviral like oseltamivir (Tamiflu) within the first 48 hours of symptom onset can significantly reduce the severity and duration of your illness. \n\n## Key Differences Between Antibiotics and Antivirals",
+            "tier": 3
+          },
+          {
+            "id": "S2",
+            "title": "Frontiers | Antiviral options and therapeutics against influenza: history, latest developments and future prospects",
+            "url": "https://www.frontiersin.org/journals/cellular-and-infection-microbiology/articles/10.3389/fcimb.2023.1269344/full",
+            "domain": "frontiersin.org",
+            "snippet": "with antivirals can significantly bring down the risk for severe illness or death related to influenza, including from strains responsible for pandemics (Siston et al., 2010). Hence, treatment of influenza and associated symptoms within 48 hours of onset with traditional chemotherapies such as oseltamivir, a neuraminidase inhibitor (NAI), given at 75 mg daily, or twice in a day can be effective. Another effective anti-viral is amantadine (directed against viral M2 protein), which when given at [...] effective against all the influenza virus types (A, B, C) at very low concentrations and even works for other RNA viruses at higher concentrations (Furuta et al., 2009). Several other therapeutic options against influenza such as the CHCl3 extract of Ferula assa-foetida, pyrazole-based compound BPR1P0034, human monoclonal antibody termed A06, have been shown to be potent and beneficial as revealed in different studies (reviewed in (Khanna et al., 2012)). VX-787, a viral PB2 inhibitor, has been [...] to adamantines and NAIs. Nitazoxanide is a thiazolide compound that is known to have antiviral activity against influenza and other RNA viruses. They work mainly by inhibiting the influenza virus replication by hindering the maturation of hemagglutinin protein (Rossignol et al., 2009). Favipiravir (T-705) is another antiviral that has inhibitory activity against both NAI and adamantine resistant viruses by inhibiting the influenza RNA polymerase (Furuta et al., 2009). It is effective against",
+            "tier": 3
+          },
+          {
+            "id": "S4",
+            "title": "3 new studies probe the efficacy of antivirals in preventing, treating flu | CIDRAP",
+            "url": "https://www.cidrap.umn.edu/influenza-general/3-new-studies-probe-efficacy-antivirals-preventing-treating-flu",
+            "domain": "cidrap.umn.edu",
+            "snippet": "Oseltamivir, laninamivir, baloxavir, and amantadine likely lower the risk of symptomatic and asymptomatic infection (moderate certainty), but zanamivir, oseltamivir, laninamivir, and baloxavir probably don't do much—if anything—to prevent asymptomatic flu or reduce all-cause death rates (high or moderate certainty). [...] # 3 new studies probe the efficacy of antivirals in preventing, treating flu\n\nMary Van Beusekom, MS\n\nInfluenza, General\n\nTamiflu capsules\n> Beka\\_C / iStock\n\nCopied to clipboard\n\nOf three new studies on the effectiveness of antivirals in preventing and treating influenza, two find that the drugs may shorten hospital stays and decrease the risk of infection in those at high risk for severe illness, and one concludes that timely initiation reduces the risk of death from flu-related pneumonia. [...] \"Although previous systematic reviews have found that antivirals (oseltamivir or zanamivir) are effective in preventing symptomatic influenza, these reviews assessed selected antivirals and did not rate the quality of evidence or consider the importance of effects in their interpretation,\" the study authors noted. \"Additionally, a randomised controlled trial of baloxavir for influenza post-exposure prophylaxis was not included in previous reviews.\"",
+            "tier": 3
+          }
+        ],
+        "citationValid": true
+      }
+    ],
+    "timings": {
+      "ffmpeg": 4.998754199999996,
+      "transcription": 0.006779699999999138,
+      "ocr": 4.212488199999992,
+      "claimExtraction": 1.448449600000007,
+      "evidenceSearch": 2.1185551000000125,
+      "verification": 1.5564687000000121,
+      "total": 14.341550300000003
+    }
+  },
+  {
+    "reelId": "reel_05",
+    "videoFile": "reel_05.mp4",
+    "modality": "text_only",
+    "transcript": "",
+    "ocrText": [
+      "[2.0s] ate enough electricity to recharge a moder"
+    ],
+    "extractedClaims": [
+      {
+        "text": "ate enough electricity to recharge a modern device",
+        "timestamp": 2,
+        "origin": "screen",
+        "verdict": "true",
+        "rawVerdict": "true",
+        "explanation": "Sources indicate that humans produce enough energy to charge a cell phone and that the human body generates enough power daily to charge a phone.",
+        "citedIds": [
+          "S1",
+          "S3"
+        ],
+        "sources": [
+          {
+            "id": "S1",
+            "title": "Do human bodies produce enough electricity to charge a cell phone?",
+            "url": "https://www.quora.com/Do-human-bodies-produce-enough-electricity-to-charge-a-cell-phone",
+            "domain": "quora.com",
+            "snippet": "Humans do produce enough “energy” to charge a cell phone, you just need to convert that energy into electricity.",
+            "tier": 3
+          },
+          {
+            "id": "S2",
+            "title": "Vampire Energy: Essential Answer | STANFORD magazine",
+            "url": "https://stanfordmag.org/contents/vampire-energy-essential-answer",
+            "domain": "stanfordmag.org",
+            "snippet": "You first ask about the energy consumption of a device left plugged in after it has been fully charged. You could walk around your house with a wattmeter to investigate your fully powered appliances, but luckily the Lawrence Berkeley National Laboratory has already done just that for you. Their Standby Power Summary Table shows that almost all the electronics we use consume electricity even when off or idle, and even when fully charged. A fully charged cell phone plugged into the wall is [...] Leaving an empty charger plugged in has a similar effect. Clasp your hands around one that's been plugged in for a while. Feel the heat? That's wasted electricity—technically, it's called \"no load mode,\" but in reality it's just another vampire. According to the Berkeley Lab's testing, cell phone chargers in no load mode consume around 0.26 watts, and laptop chargers, 4.42 watts. These numbers by themselves constitute a trickle, but when multiplied by the dozens of idle or \"off\" devices in [...] into the wall is consuming about 2.24 watts, or 60 percent of the power it consumed while charging. Even worse is a charged laptop that's still plugged in, which consumes 29.48 watts, 66 percent of the 44.28 watts consumed while charging. If you left it plugged in all year, it would consume as much electricity as running your coffeemaker for 12 days straight. (Now are you wondering whether or not you should work with it plugged in? That's a whole other question, and a surprisingly complicated",
+            "tier": 3
+          },
+          {
+            "id": "S3",
+            "title": "The human body produces enough electricity daily to power a ...",
+            "url": "https://www.facebook.com/groups/physicsisfun109/posts/1013462637999247",
+            "domain": "facebook.com",
+            "snippet": "Your body generates approximately 100 watts of power at rest—enough to power a light bulb, charge a phone, and still have energy left over.",
+            "tier": 3
+          },
+          {
+            "id": "S4",
+            "title": "How Many Watts Does a Phone Charger Use? | EnergySage",
+            "url": "https://www.energysage.com/electricity/house-watts/how-many-watts-does-a-phone-charger-use",
+            "domain": "energysage.com",
+            "snippet": "## Key takeaways\n\n On average, phone chargers use about 5 watts of electricity.\n Charging a phone once a day will use about 0.15 kilowatt-hours of electricity per month and 1.83 kilowatt-hours of electricity per year.\n Phone chargers are very cheap to run: it costs about 2 cents to use one for a month and 26 cents to use one for a year.\n The best way to save money on electricity is to install solar panels. Start comparing your options on the EnergySage Marketplace today. [...] Charging your phone once per day uses 0.035 kilowatt-hours (kWh) of electricity per week, 0.15 kWh per month, and about 1.83 kWh per year.\n Charging your phone twice per day uses 0.07 kWh of electricity per week, 0.3 kWh per month, and about 3.65 kWh per year. [...] ## How much electricity does a phone charger use?\n\nGenerally, phone chargers use about 5 watts (W) of electricity. Some faster chargers can use up to 20 W, but the majority of standard chargers are more around the 5 W range. Phone chargers usually use one to two amps and connect to a 120-volt outlet.\n\nHow many times you charge your phone has a large impact on how much electricity your phone charger uses. Assuming one full charge takes one hour:",
+            "tier": 3
+          }
+        ],
+        "citationValid": true
+      }
+    ],
+    "timings": {
+      "ffmpeg": 4.956267599999992,
+      "transcription": 0.008964600000006612,
+      "ocr": 2.3212999999999884,
+      "claimExtraction": 0.9500058999999892,
+      "evidenceSearch": 1.2199186999999947,
+      "verification": 1.0679661000000051,
+      "total": 10.524511699999989
+    }
+  },
+  {
+    "reelId": "reel_06",
+    "videoFile": "reel_06.mp4",
+    "modality": "text_only",
+    "transcript": "",
+    "ocrText": [
+      "[16.0s] [TC owe ocated NI DBC 1 UCIT"
+    ],
+    "extractedClaims": [],
+    "timings": {
+      "ffmpeg": 5.4574189999999945,
+      "transcription": 0.00704309999999532,
+      "ocr": 3.602050300000003,
+      "claimExtraction": 0.9570577999999951,
+      "evidenceSearch": 0,
+      "verification": 0,
+      "total": 10.02366799999999
+    }
+  },
+  {
+    "reelId": "reel_07",
+    "videoFile": "reel_07.mp4",
+    "modality": "both",
+    "transcript": "Here are three nature claims. Claim 1. The Pacific Ocean is the largest ocean on earth. Claim 2. Sharks are mammals that produce milk for their young. Claim 3. Lightning never strikes the same place twice. Stay curious.",
+    "ocrText": [],
+    "extractedClaims": [
+      {
+        "text": "The Pacific Ocean is the largest ocean on earth.",
+        "timestamp": 2.4,
+        "origin": "speech",
+        "verdict": "true",
+        "rawVerdict": "true",
+        "explanation": "Multiple sources explicitly state that the Pacific Ocean is the largest ocean on Earth.",
+        "citedIds": [
+          "S1",
+          "S2",
+          "S3",
+          "S4"
+        ],
+        "sources": [
+          {
+            "id": "S1",
+            "title": "Pacific Ocean Facts: The Largest Ocean on Earth",
+            "url": "https://oceanblueproject.org/pacific-ocean-facts",
+            "domain": "oceanblueproject.org",
+            "snippet": "The Pacific Ocean is the largest and deepest of the five oceans of the world, covering more area than all the land on Earth combined. Stretching from Asia and Australia to North and South America, it plays a crucial role in Earth’s climate, ecosystems, and global water systems. As one of the main oceans of Earth, the Pacific Ocean is home to incredible biodiversity, powerful natural forces, and some of the most fascinating geographic features on the planet. [...] 🌍 Size: About 63 million square miles (165 million square kilometers)\n 🌊 Depth: Average depth of about 13,000 feet (4,000 meters)\n ⛰️ Deepest Point: Mariana Trench (about 36,000 feet / 11,000 meters)\n 🌐 Coverage: Covers more than 30% of Earth’s surface\n 🐋 Wildlife: Home to whales, sharks, coral reefs, and thousands of marine species\n\nThe Pacific Ocean is not only the largest of all main oceans of Earth, but also the most geologically active. [...] ## ❓ FAQs About the Pacific Ocean\n\n### What is the Pacific Ocean?\n\nThe Pacific Ocean is the largest and deepest ocean on Earth and one of the five oceans of the world.\n\n### Why is it called the Pacific Ocean?\n\nThe name “Pacific” means peaceful. It was given by explorer Ferdinand Magellan, who experienced calm waters during his voyage.\n\n### What is the deepest part of the Pacific Ocean?\n\nThe Mariana Trench is the deepest part, reaching nearly 36,000 feet below sea level.",
+            "tier": 3
+          },
+          {
+            "id": "S2",
+            "title": "Pacific Ocean - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Pacific_Ocean",
+            "domain": "en.wikipedia.org",
+            "snippet": "At 165,250,000 square kilometers (63,800,000 square miles) in area (as defined with a southern Antarctic border), the Pacific Ocean is the largest division of the World Ocean and the hydrosphere and covers approximately 46% of Earth's water surface and about 32% of the planet's total surface area, larger than its entire land area combined (148,940,000 square kilometers or 57,510,000 square miles). The centers of both the water hemisphere and the Western Hemisphere, as well as the oceanic pole [...] The Pacific Ocean is the largest and deepest of Earth's five oceanic divisions. It stretches from the Arctic Ocean in the north to the Southern Ocean, or, depending on the definition, to Antarctica in the south, and is bounded by the continents of Asia and Australia \"Australia (continent)\") in the west and the Americas in the east. [...] and southern (South Pacific) portions. It extends from the Antarctic region in the South to the Arctic in the north. The Pacific Ocean encompasses approximately one-third of the Earth's surface, having an area of 165,250,000 km2 (63,800,000 sq mi) – larger than Earth's entire landmass combined, 150,000,000 km2 (58,000,000 sq mi).",
+            "tier": 3
+          },
+          {
+            "id": "S3",
+            "title": "The Pacific Ocean—facts and information | National Geographic",
+            "url": "https://www.nationalgeographic.com/environment/article/pacific-ocean",
+            "domain": "nationalgeographic.com",
+            "snippet": "•8 min read\n\nThe Pacific Ocean is the largest and deepest ocean on Earth. It spans 60 million square miles from California to China, and in certain regions extends tens of thousands of feet below the surface of the water.\n\nTo get a sense of just how immense the Pacific Ocean is, you could put all of Earth's landmasses together, and the Pacific would still be larger. [...] A California sea lion hunts for fish on a kelp paddy at Cortes Bank, a seamount off San Diego.\n\nPhotograph by Brian Skerry, Nat Geo Image Collection\n\n ENVIRONMENT\n REFERENCE\n\n# The Pacific Ocean, explained\n\nThe largest ocean on Earth is filled with mysteries, but also subject to great pressures like climate change, plastic pollution, and overfishing.\n\nBySarah Gibbens\n\nPublished March 4, 2019\n\n•8 min read",
+            "tier": 3
+          },
+          {
+            "id": "S4",
+            "title": "What is the largest ocean basin on Earth?",
+            "url": "https://oceanservice.noaa.gov/facts/biggestocean.html",
+            "domain": "oceanservice.noaa.gov",
+            "snippet": "Covering approximately 63 million square miles and containing more than half of the free water on Earth, the Pacific is by far the largest of the world’s ocean basins. All of the world’s continents could fit into the Pacific basin. [...] Home Ocean Facts What is the largest ocean basin on Earth?\n\n# What is the largest ocean basin on Earth?\n\n## The Pacific Ocean is the largest and deepest of the world ocean basins.\n\nthe Pacific Ocean\n\nThe 'Ring of Fire' is defined by a nearly continuous series of oceanic trenches, island arcs, and volcanic mountain ranges and/or boundaries of several plates. It encircles the periphery of the Pacific Ocean Basin. (image courtesy of COMET® program) [...] The Pacific is the oldest of the existing ocean basins. Its oldest rocks have been dated at about 200 million years. The Pacific basin is referred to as the “Ring of Fire” due to intense earthquake and volcanic activity occurring near areas of tectonic plate subduction (where one tectonic plate is forced under another).\n\nThe Atlantic basin is the second largest basin, followed by the Indian Ocean basin, the Southern Ocean, and finally the Arctic Ocean basin.\n\n###### Get Social",
+            "tier": 3
+          }
+        ],
+        "citationValid": true
+      },
+      {
+        "text": "Sharks are mammals that produce milk for their young.",
+        "timestamp": 7,
+        "origin": "speech",
+        "verdict": "false",
+        "rawVerdict": "false",
+        "explanation": "Sharks are not mammals and do not possess mammary glands to produce milk for their young, making the claim false.",
+        "citedIds": [
+          "S1",
+          "S2"
+        ],
+        "sources": [
+          {
+            "id": "S1",
+            "title": "Are Sharks Mammals or Fish? (and Other Shark Facts)- Travel For Wildlife",
+            "url": "https://www.travel4wildlife.com/are-sharks-mammals",
+            "domain": "travel4wildlife.com",
+            "snippet": "No, sharks cannot nurse their young because they have no mammary glands to produce milk! As you may have guessed, mammary glands are only possessed by mammals. That means no fish, including sharks, can nurse their young. (No, not even a Nurse Shark!) So do sharks give live birth like mammals or do sharks lay eggs? Trick question. Sharks do both! Of the more than 500 species of sharks, some are oviparous (lay eggs), some are viviparous (give live birth to pups that were nourished by a placenta), [...] Are sharks mammals: Difference between shark and dolphin\n\nDifferences between a dolphin and a shark (mammal and a fish)\n\n## Why Sharks aren’t Mammals\n\nAll mammals share the following traits.\n\n1. Hair\n2. Three Middle Ear Bones\n3. Endothermic (warm-blooded)\n4. Mammary Glands (for nursing young)\n5. Neocortex (a section of the brain)\n\nDo sharks have all of these traits? Let’s check them out one by one because there are a few interesting exceptions.\n\n#### Do Sharks Have Hair? [...] by a placenta), and some are ovoviviparous (hatch the eggs internally and then give birth later). Whether they lay eggs or give live birth, sharks don’t do any parenting to their offspring. You’re on your own kid!",
+            "tier": 3
+          },
+          {
+            "id": "S2",
+            "title": "Facebook",
+            "url": "https://www.facebook.com/fb-answers/does-shark-produce-milk",
+            "domain": "facebook.com",
+            "snippet": "Log In\n\nLog In\n\nForgot Account?\n\n## Does Shark Produce Milk?\n\nSummarized by Meta AI\n\n48 people talking about this\n\nNo, sharks don’t produce milk like mammals do—they don’t have mammary glands. Some shark species do secrete a nutrient-rich “uterine milk” or histotroph to feed embryos inside the womb, and the name “milk shark” comes from a cultural belief about its meat, not actual milk production.\n\nShark biology and mammary glands [...] Sharks are fish, not mammals, so they lack mammary glands and don’t nurse their young with milk. Most people mix them up with whales and dolphins, which are mammals and do produce milk. Sharks breathe through gills, have cartilage skeletons, and their young are either born live or hatch from eggs without parental nursing.\n\n[Video 1 PADI Sharks are some of the most fascinating and oldest species on the planet. 319 65]( [...] While sharks don’t make mammary milk, some live-bearing species produce a milky fluid called “uterine milk” or histotroph inside the womb to nourish developing embryos. White sharks, for example, feed embryos with unfertilized eggs and an oil-rich uterine secretion. This isn’t milk from nipples—it’s a nutritional fluid for pups before birth.",
+            "tier": 3
+          },
+          {
+            "id": "S3",
+            "title": "GREAT WHITE SHARK PRODUCES “MILK” TO FEED ITS BABIES – @todropscience on Tumblr",
+            "url": "https://www.tumblr.com/todropscience/150687503147/great-white-shark-produces-milk-to-feed-its",
+            "domain": "tumblr.com",
+            "snippet": "Other elasmobranch are known to produce milk,  The pups of manta ray species, are wrapped in a thin membraneous egg case, and feed on histotrophe, a protein and lipid “milk” secreted by the uterus, until they are fully developed [...] todropscience\n\n## GREAT WHITE SHARK PRODUCES “MILK” TO FEED ITS BABIES\n\nThe great white shark (Carcharodon carcharias), is the largest species of lamniform shark, commonly known as mackerel sharks. These biggest sharks are viviparous, giving live birth, and the embryos feeding on eggs produced by the ovary while still inside the mother's uterus. [...] White shark reproduction is complex. Embryos probably rely on a changing source of nutrition over the course of their development. The embryos depend on at least three major sources of nutrition, yolk-sac yolk (lecithotrophy) in the initial phase, uterine milk (lipid histotrophy) in the second phase and nutrient eggs (oophagy) in the third phase. The combination of maternal input with lipid-rich uterine milk and nutrient yolk may increase the maximum size of full-term embryos in utero",
+            "tier": 3
+          },
+          {
+            "id": "S4",
+            "title": "10 Animals That Make 'Milk' and Aren’t Mammals | Discover Magazine",
+            "url": "https://www.discovermagazine.com/10-surprising-animals-that-make-milk-and-arent-mammals-42636",
+            "domain": "discovermagazine.com",
+            "snippet": "Ramon Carretero/Shutterstock\n\n## Great White Sharks\n\nGreat white shark pups grow inside female sharks’ uterus, but because they don’t have an umbilical cord to get nutrients like mammals do, the uterus sheds a milky substance to sustain the pup before it’s born. (A few shark species do have umbilical cords and, after they’re born, bellybuttons to prove it!).\n\n(Credit: Hussmann/Shutterstock)\n\nHussmann/Shutterstock\n\n## Nematodes",
+            "tier": 3
+          }
+        ],
+        "citationValid": true
+      },
+      {
+        "text": "Lightning never strikes the same place twice.",
+        "timestamp": 11.4,
+        "origin": "speech",
+        "verdict": "false",
+        "rawVerdict": "false",
+        "explanation": "Multiple sources explicitly state that lightning can and frequently does strike the same place twice, such as skyscrapers, towers, and tall objects.",
+        "citedIds": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "sources": [
+          {
+            "id": "S1",
+            "title": "Can Lightning Strike the Same Place Twice? | Britannica",
+            "url": "https://www.britannica.com/story/can-lightning-strike-the-same-place-twice",
+            "domain": "britannica.com",
+            "snippet": "strikes one place, it’s probably safe from another strike. In reality, lightning can and will strike the same place twice, whether it be during the same storm or even centuries later. [...] place in this short period of time. Technically, the lightning is already striking more than once. Even during the same thunderstorm, there is nothing stopping a lightning bolt from striking the same place it had struck previously, even if it was as little as a few seconds earlier or as much as centuries later. [...] In the U.S. alone there is an average of 20 million cloud to ground lightning strikes per year. This makes the likelihood of a place being struck by lightning multiple times incredibly high over a long period of time. If anything, if there is a significant attraction between the bolt and the place it previously hit, it’s more likely that the same place would be struck again. Skyscrapers are more susceptible to strikes since they significantly reduce the distance the stepped leader needs to",
+            "tier": 3
+          },
+          {
+            "id": "S2",
+            "title": "Does Lightning Strike the Same Place Twice? Science vs. Myth | LPS France",
+            "url": "https://lpsfr.com/en/blog-lightning-never-strikes-twice",
+            "domain": "lpsfr.com",
+            "snippet": "toanticipate the onset of lightning,\n to safely channel the current to ground,\n and to withstand multiple impacts without degradation.\n\nThanks to LPS Manager, it is even possible to monitor impacts in real time, receive automatic alerts and plan preventive maintenance after each storm.\n\n## In summary\n\n| Myth | Reality |\n --- |\n| Lightning never strikes the same place twice. | She can hit the same spot multiple times, and that's common! |\n\n## Conclusion [...] The expression comes from an old metaphor : it meant that misfortune doesn't happen twice. But in reality, modern detection networks like LPS MANAGER, LPS France , and StrikeRadar clearly show that repeated impacts are frequent.\n\n## How to protect yourself effectively?\n\nLightning protection systems exist to prevent damage from multiple lightning strikes . Early streamer emission (ESE) lightning rods, such as the Paraton@irfrom LPS LPS France , allow for: [...] Lightning always seeks the shortest and most conductor path to the ground. If a point offers these conditions — such as a metal tower, a telecommunications tower or a lightning rod — it becomes a natural target.\n\n 🗼 TheEmpire State Building in New York is struck approximately 20 to 25 times a year.\n 🗼 The Eiffel Tower is struck by lightning about ten times each year.\n 🌳 Even a lone tree in a field can be struck several times during its lifetime.\n\n## How does this happen?",
+            "tier": 3
+          },
+          {
+            "id": "S3",
+            "title": "5 striking facts versus myths about lightning you should know | National Oceanic and Atmospheric Administration",
+            "url": "https://www.noaa.gov/stories/5-striking-facts-versus-myths-about-lightning-you-should-know",
+            "domain": "noaa.gov",
+            "snippet": "Infographic: What to do and not to do when you see lightning. Note: This image and associated text can be found online at www.weather.gov/lightning. (NOAA NWS)\n\nDownload Image\n\n \n\n4. Myth: Lightning never strikes in one place twice.\n\nFact: Actually, lightning can, and often does, strike the same place repeatedly — especially if it’s a tall and isolated object. For example, the Empire State Building is hit about 25 times per year offsite link.",
+            "tier": 3
+          },
+          {
+            "id": "S4",
+            "title": "Definition of LIGHTNING NEVER STRIKES (THE SAME PLACE) TWICE",
+            "url": "https://www.merriam-webster.com/dictionary/lightning%20never%20strikes%20%28the%20same%20place%29%20twice",
+            "domain": "merriam-webster.com",
+            "snippet": "## phrase\n\n—used to say that a very unusual event is not likely to happen again to the same person or in the same place\n\nThe team was lucky to get that win but may not do as well next time. _Lightning never strikes twice_.\n\n## Examples of _lightning never strikes (the same place) twice_ in a Sentence\n\nRecent Examples on the Web [...] Style \n\n“Lightning never strikes (the same place) twice.” _Merriam-Webster.com Dictionary_, Merriam-Webster,  Accessed 16 Nov. 2026.\n\nImage 7Copy Citation%20twice)\n\nLove words? Need even more definitions?\n\nSubscribe to America's largest dictionary and get thousands more definitions and advanced search—ad free!\n\nMerriam-Webster unabridged\n\nLast Updated:2 Jul 2026 - Updated example sentences\n\n## More from Merriam-Webster\n\nTop Lookups\n\n Next refresh: 23 [...] Examples are automatically compiled from online sources to show current usage.Read More%20twice#) Opinions expressed in the examples do not represent those of Merriam-Webster or its editors. Send us feedback. \n\nAnd don’t count on the folk wisdom that _lightning never strikes the same place twice_ to protect you.— Becky Bollinger, _Discover Magazine_, 10 July 2018  twice\n\nlightningproof\n\nSee all Nearby Words\n\n## Cite this Entry\n\nStyle",
+            "tier": 3
+          }
+        ],
+        "citationValid": true
+      }
+    ],
+    "timings": {
+      "ffmpeg": 5.29588029999999,
+      "transcription": 13.045426799999987,
+      "ocr": 1.4436673999999767,
+      "claimExtraction": 1.075774000000005,
+      "evidenceSearch": 1.3586607000000077,
+      "verification": 1.7463150000000023,
+      "total": 23.965778900000004
+    }
+  },
+  {
+    "reelId": "reel_08",
+    "videoFile": "reel_08.mp4",
+    "modality": "both",
+    "transcript": "Three big science questions today. Claim 1. Jupiter Great Red Spot is a giant spinning storm. Claim 2. Humans only use 10% of their brain. Claim 3. Sound waves travel faster through air than through solid steel. Think before you share.",
+    "ocrText": [],
+    "extractedClaims": [
+      {
+        "text": "Jupiter's Great Red Spot is a giant spinning storm.",
+        "timestamp": 3,
+        "origin": "speech",
+        "verdict": "true",
+        "rawVerdict": "true",
+        "explanation": "The sources explicitly state that Jupiter's Great Red Spot is a vast storm that spins like a cyclone.",
+        "citedIds": [
+          "S1",
+          "S2"
+        ],
+        "sources": [
+          {
+            "id": "S1",
+            "title": "Jupiter's Great Red Spot | ESA/Hubble",
+            "url": "https://esahubble.org/images/opo9929b",
+            "domain": "esahubble.org",
+            "snippet": "When 17th-century astronomers first turned their telescopes to Jupiter, they noted a conspicuous reddish spot on the giant planet. This Great Red Spot is still present in Jupiter's atmosphere, more than 300 years later. It is now known that it is a vast storm, spinning like a cyclone. Unlike a low-pressure hurricane on Earth, however, the Red Spot rotates in a counterclockwise direction in the southern hemisphere, showing that it is a high-pressure system. Winds inside this Jovian storm reach [...] When 17th-century astronomers first turned their telescopes to Jupiter, they noted a conspicuous reddish spot on the giant planet. This Great Red Spot is still present in Jupiter's atmosphere, more than 300 years later. It is now known that it is a vast storm, spinning like a cyclone. Unlike a low-pressure hurricane in the Caribbean Sea, however, the Red Spot rotates in a counterclockwise direction in the southern hemisphere, showing that it is a high-pressure system. Winds inside this Jovian",
+            "tier": 3
+          },
+          {
+            "id": "S2",
+            "title": "The Great Red Spot: An Ancient Storm in Jupiter's Atmosphere - NASA Science",
+            "url": "https://science.nasa.gov/asset/hubble/the-great-red-spot-an-ancient-storm-in-jupiters-atmosphere",
+            "domain": "science.nasa.gov",
+            "snippet": "When 17th-century astronomers first turned their telescopes to Jupiter, they noted a conspicuous reddish spot on the giant planet. This Great Red Spot is still present in Jupiter's atmosphere, more than 300 years later. It is now known that it is a vast storm, spinning like a cyclone. Unlike a low-pressure hurricane in the Caribbean Sea, however, the Red Spot rotates in a counterclockwise direction in the southern hemisphere, showing that it is a high-pressure system. Winds inside this Jovian [...] The Red Spot is the largest known storm in the Solar System. With a diameter of 15,400 miles, it is almost twice the size of the entire Earth and one-sixth the diameter of Jupiter itself. [...] The long lifetime of the Red Spot may be due to the fact that Jupiter is mainly a gaseous planet. It possibly has liquid layers, but lacks a solid surface, which would dissipate the storm's energy, much as happens when a hurricane makes landfall on the Earth. However, the Red Spot does change its shape, size, and color, sometimes dramatically. Such changes are demonstrated in high-resolution Wide Field and Planetary Cameras 1 & 2 images of Jupiter obtained by NASA's Hubble Space Telescope, and",
+            "tier": 3
+          },
+          {
+            "id": "S3",
+            "title": "Spinning Under Jupiter’s Great Red Spot: Reflections on a Celestial “Tornado”",
+            "url": "https://medium.com/this-side-of-the-singularity/spinning-under-jupiters-great-red-spot-reflections-on-a-celestial-tornado-44a2d2a30eee",
+            "domain": "medium.com",
+            "snippet": "If you compare the Great Red Spot to storms on Earth, you’ll notice a crucial difference. Our hurricanes fade out as soon as they hit land or cold water. Jupiter’s colossal storm, on the other hand, never meets a solid surface. It’s sandwiched between two powerful jet streams that act almost like invisible walls, trapping the storm’s energy and keeping it spinning. The winds at the edge of the spot roar past 430 km/h — that’s fast enough to fly from New York to Tokyo in under seven hours. [...] Now, people often call the Great Red Spot a “giant tornado,” but it’s not a tornado in any earthly sense. This is a vast, ancient vortex, so enormous that you could fit at its maximum extension nearly three Earths inside. And it’s been churning away for centuries, capturing the imagination of astronomers and stargazers alike.\n\n## A Storm with Centuries of History [...] Back in those days, the Spot was a true monster, measuring around 40,000 kilometers wide — large enough to swallow Earth itself more than once over. Today, it’s shrunk to about 14,000 kilometers, which is still nearly nine times the diameter of the largest hurricanes on Earth. Its persistence is part of what makes it so mysterious: What sparked it in the first place? Why has it survived for so long? And is there an end in sight?\n\n## Peering into the Vortex: Power, Depth, and Mystery",
+            "tier": 3
+          },
+          {
+            "id": "S4",
+            "title": "Great Red Spot: Jupiter Super-Storm Is Shrinking - Business Insider",
+            "url": "https://www.businessinsider.com/how-long-jupiter-great-red-spot-will-last-2018-2",
+            "domain": "businessinsider.com",
+            "snippet": "\"They don't, at least not all of them,\" Orton said in an email. \"Think of the GRS [Great Red Spot] as a spinning wheel that keeps on spinning because it's caught between two conveyor belts that are moving in opposite directions. The GRS is stable and long-lived, because it's 'wedged' between two jet streams that are moving in opposite directions.\" [...] Jupiter's jet streams can move at speeds of more than 300 mph, so they impart great force onto any storms that spin backward relative to the planet's rotation. That keeps \"feeding momentum into the vortex,\" Orton said.\n\nJuno will get its next peek at the Great Red Spot in April 2018, then again in July and September of 2019, and at least one more time in December 2020. But the spacecraft's view will not be as close or detailed as its July 2017 flyby.",
+            "tier": 3
+          }
+        ],
+        "citationValid": true
+      },
+      {
+        "text": "Humans only use 10% of their brain.",
+        "timestamp": 8,
+        "origin": "speech",
+        "verdict": "false",
+        "rawVerdict": "false",
+        "explanation": "Multiple sources explicitly debunk the claim that humans only use 10% of their brain, noting that brain imaging shows most of the brain is active nearly all the time.",
+        "citedIds": [
+          "S1",
+          "S2",
+          "S3",
+          "S5"
+        ],
+        "sources": [
+          {
+            "id": "S5",
+            "title": "\"Lucy\" is Wrong; We Use Way More Than 10% of Our Brains | Mind Read | Learn Science at Scitable",
+            "url": "https://www.nature.com/scitable/blog/mind-read/lucy_is_wrong_we_use",
+            "domain": "nature.com",
+            "snippet": "Plus, the \"use it or lose it\" adage seems to hold particularly true in brain health. A 2012 study) by Schafer and colleagues at Harvard found that neural immune cells called microglia can remove idle, but otherwise healthy, synapses (connections) between brain cells. If we were only regularly using only 10% of our brains at any given time, we might all be prone to cerebral atrophy, resembling patients with neurodegenerative diseases like Alzheimer's. [...] Plus, the \"use it or lose it\" adage seems to hold particularly true in brain health. A 2012 study) by Schafer and colleagues at Harvard found that neural immune cells called microglia can remove idle, but otherwise healthy, synapses (connections) between brain cells. If we were only regularly using only 10% of our brains at any given time, we might all be prone to cerebral atrophy, resembling patients with neurodegenerative diseases like Alzheimer's. [...] Image credit: Fandango (Lucy), Lifehacker (brain), NIMH/Wikimedia Commons (fMRI), Beyond the Dish (glial cells)\n\n\"It is estimated most human beings only use ten percent of their brain's capacity,\" lectures Professor Norman, played by actor Morgan Freeman, in the trailer for the new thriller Lucy. \"Imagine if we could access 100 percent. Interesting things begin to happen.\"",
+            "tier": 2
+          },
+          {
+            "id": "S1",
+            "title": "Do We Really Use Only 10 Percent of Our Brain? | Britannica",
+            "url": "https://www.britannica.com/story/do-we-really-use-only-10-percent-of-our-brain",
+            "domain": "britannica.com",
+            "snippet": "We’ve been able to back up these logical conclusions with hard evidence. Imaging techniques, such as positron emission tomography (PET) and functional magnetic resonance imaging (fMRI), allow doctors and scientists to map brain activity in real time. The data clearly shows that large areas of the brain—far more than 10 percent—are used for all sorts of activity, from seemingly simple tasks like resting or looking at pictures to more complex ones like reading or doing math. Scientists have yet [...] It’s one of Hollywood’s favorite bits of pseudoscience: human beings use only 10 percent of their brain, and awakening the remaining 90 percent—supposedly dormant—allows otherwise ordinary human beings to display extraordinary mental abilities. In Phenomenon (1996), John Travolta gains the ability to predict earthquakes and instantly learns foreign languages. Scarlett Johansson becomes a superpowered martial-arts master in Lucy (2014). And in Limitless (2011) Bradley Cooper writes a novel",
+            "tier": 3
+          },
+          {
+            "id": "S2",
+            "title": "How much of our brain do we actually use? Brain facts and myths",
+            "url": "https://www.medicalnewstoday.com/articles/321060",
+            "domain": "medicalnewstoday.com",
+            "snippet": "In this article, we explore how much of the brain a person uses. We also bust some widely held myths and reveal some interesting facts about the brain.\n\nAccording to an older survey from 2013, around 65 percent of Americans believe that we only use 10 percent of our brains.\n\nBut this is just a myth, according to an interview with neurologist Barry Gordon in Scientific American. He explained that the majority of the brain is almost always active. [...] The brain is the most complex organ in the human body. Many believe that a person only ever uses 10 percent of their brain. However, research suggests people use most of their brain.\n\nA person’s brain determines how they experience the world around them. The brain weighs about 3 pounds and contains around 100 billion neurons — cells that carry information. [...] The 10 percent myth was also debunked in a Frontiers in Human Neuroscience.\n\nOne common brain imaging technique, called functional magnetic resonance imaging (fMRI), can measure activity in the brain while a person is performing different tasks.\n\nUsing this and similar methods, researchers show that most of our brain is in use most of the time, even when a person is performing a very simple action.\n\nA lot of the brain is even active when a person is resting or sleeping.",
+            "tier": 3
+          },
+          {
+            "id": "S3",
+            "title": "Myth: We Only Use 10% of Our Brains – Association for Psychological Science – APS",
+            "url": "https://www.psychologicalscience.org/uncategorized/myth-we-only-use-10-of-our-brains.html",
+            "domain": "psychologicalscience.org",
+            "snippet": "monitoring, sensing, interpreting, reasoning, planning, and acting. Even people with degenerative neural disorders such as Alzheimer’s and Parkinson’s disease still use more than 10% of their brains. [...] This notion seems firmly rooted in popular culture despite many efforts to debunk it (Hughes, Lyddy, & Lamb, 2013). It was the basis of the movie Lucy (2014), which depicted what supposedly would happen if a person actually used all 100% of her brainpower. It has been used to justify belief in pseudoscientific psychic powers and is a tacit assumption in many self-help programs designed to “unleash” untapped human potential. [...] Show Slides 2 and 3 to show how brain scans reveal how all parts of the brain influence behavior. The online article by McDonald (2016) links to a nice accompanying video of a neuroscientist debunking the myth in more detail. This article also discusses a rare case where a man has only 10% of his brain and it’s unknown how he manages to live a fairly normal life.",
+            "tier": 3
+          }
+        ],
+        "citationValid": true
+      },
+      {
+        "text": "Sound waves travel faster through air than through solid steel.",
+        "timestamp": 12,
+        "origin": "speech",
+        "verdict": "false",
+        "rawVerdict": "false",
+        "explanation": "The sources explicitly state that sound waves travel much faster through steel than through air (over 17 times faster), making the claim that they travel faster through air false.",
+        "citedIds": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "sources": [
+          {
+            "id": "S1",
+            "title": "The Soundry: The Physics of Sound",
+            "url": "https://schoolnet.org.za/PILAfrica/en/webs/19537/physics4.html",
+            "domain": "schoolnet.org.za",
+            "snippet": "use this method of communication over long distances is that sound travels so much faster in water.  Solids:  Sound travels fastest through solids. This is because molecules in a solid medium are much closer together than those in a liquid or gas, allowing sound waves to travel more quickly through it. In fact, sound waves travel over 17 times faster through steel than through air. The exact speed of sound in steel is 5,960 meters per second (13,332 mph)! But, this is only for the majority of [...] | The Speed of Sound:       |  |  | Sound travels at different speeds depending on what it is traveling through. Of the three mediums (gas, liquid, and solid) sound waves travel the slowest through gases, faster through liquids, and fastest through solids. Temperature also affects the speed of sound. The speed of sound depends upon the properties of the medium it is passing through. When we look at the properties of a gas, we see that only when molecules collide with each other can the",
+            "tier": 3
+          },
+          {
+            "id": "S2",
+            "title": "[FREE] True or False: Sound travels faster through steel than through air.\n\nA. True \nB. False - brainly.com",
+            "url": "https://brainly.com/question/56103789",
+            "domain": "brainly.com",
+            "snippet": "Upload your school material  for a more relevant answer\n\nSound travels faster through steel than through air, making the statement True. This is due to the greater density and rigidity of steel, allowing sound waves to propagate more quickly. The speed of sound in air is around 343 m/s, while in steel it is about 5000 m/s.\n\n## Explanation\n\nThe statement \"Sound travels faster through steel than through air\" is True. [...] Thus, because steel is both denser and more rigid than air, sound waves travel much faster through it. This phenomenon can be observed in various practical scenarios, such as when a train approaches and we see it before we hear it, highlighting that light travels faster than sound.\n\nIn conclusion, since sound indeed travels faster through steel than through air, the answer is True.\n\n## Examples & Evidence [...] 2.   Speed of Sound in Steel: In contrast, the speed of sound in steel is about 5000 m/s, which is significantly faster. Steel is a solid material, which means its particles are tightly packed and can transmit vibrations more efficiently. The rigidity of steel also contributes to this increased speed, as sound waves require a medium that can transmit energy effectively.",
+            "tier": 3
+          },
+          {
+            "id": "S3",
+            "title": "Why Sound Travels Differently Through Air, Water, and Solids",
+            "url": "https://www.sciencetimes.com/articles/62500/20260828/why-sound-travels-differently-through-air-water-solids.htm",
+            "domain": "sciencetimes.com",
+            "snippet": "The speed of sound depends on the type of solid. It can travel through steel at more than 5,000 meters per second, while it moves more slowly through materials such as rubber or soft wood.\n\nA simple example is tapping one end of a table while someone places an ear against the other end. The tapping can often be heard through the table before it is heard through the air. The solid surface carries the vibration efficiently. [...] Particle spacing helps explain why sound moves faster through water than air and often faster through solids than liquids. However, density is not the only factor.\n\nStiffness is equally important. A stiff material resists compression and quickly transfers vibrations. Steel carries sound rapidly because it is both dense and highly stiff. Rubber can be dense but is flexible, so sound travels through it more slowly than through steel. [...] This is why the speed of sound is not one fixed number. It depends on the medium and its physical properties. Temperature also matters, especially in gases and liquids.\n\n## Speed of Sound in Air, Water, and Solids\n\n Air at 20°C: about 343 meters per second\n Freshwater at 20°C: about 1,480 meters per second\n Seawater: about 1,500 meters per second\n Wood: about 3,000 to 4,000 meters per second\n Glass: about 4,500 to 5,500 meters per second\n Steel: more than 5,000 meters per second",
+            "tier": 3
+          },
+          {
+            "id": "S4",
+            "title": "Relative speed of sound in solids, liquids, and gases | Physics | Khan Academy (IN accent)",
+            "url": "https://www.youtube.com/watch?v=MpAwBUxqgcA",
+            "domain": "youtube.com",
+            "snippet": "[1:37] make sound waves travel faster through iron than it does through air. But iron also has a much higher density than air, which would tend to make sound waves\n[1:46] travel slower through it. So, which is it? Does sound travel faster though, iron or slower? Well, it turns out that the higher stiffness of iron more than\n[1:54] compensates for the increased density and the speed of sound through iron is about 14 times faster than through air. [...] [2:25] through solids than it is through liquids and faster through liquids than it is through gases because solids are more rigid than liquids and liquids are\n[2:33] more rigid than gases. Density is important in some aspects too, though.\n[2:37] For instance, if you heat up the air that a sound wave is traveling through, the density of the air decreases. This explains why sound travels faster [...] [2:01] This means that if you were to place one ear on a railroad track and someone far away struck the same railroad track with a hammer, you should hear the noise 14\n[2:09] times faster in the ear placed on the track compared to the ear just listening through the air. In fact, the larger bulk modulars of more rigid materials\n[2:18] usually compensates for any larger densities. Because of this fact, the speed of sound is almost always faster",
+            "tier": 3
+          }
+        ],
+        "citationValid": true
+      }
+    ],
+    "timings": {
+      "ffmpeg": 5.120062999999995,
+      "transcription": 13.508836099999986,
+      "ocr": 1.345369399999996,
+      "claimExtraction": 1.2952895999999892,
+      "evidenceSearch": 2.005272499999992,
+      "verification": 1.424665100000013,
+      "total": 24.699541299999982
+    }
+  },
+  {
+    "reelId": "reel_09",
+    "videoFile": "reel_09.mp4",
+    "modality": "both",
+    "transcript": "Let us check three biological statements. Claim 1. The human heart pumps thousands of gallons of blood each day. Claim 2. Cracking your knuckles causes arthritis in your fingers. Claim 3. Drinking pure water completely cures all forms of cancer. Know your biology.",
+    "ocrText": [],
+    "extractedClaims": [
+      {
+        "text": "The human heart pumps thousands of gallons of blood each day.",
+        "timestamp": 3.2,
+        "origin": "speech",
+        "verdict": "true",
+        "rawVerdict": "true",
+        "explanation": "Multiple sources explicitly state that the heart pumps about 2,000 gallons of blood each day, which qualifies as thousands of gallons.",
+        "citedIds": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "sources": [
+          {
+            "id": "S1",
+            "title": "How Blood Flows Through the Heart & Body",
+            "url": "https://my.clevelandclinic.org/health/articles/17060-how-does-the-blood-flow-through-your-heart",
+            "domain": "my.clevelandclinic.org",
+            "snippet": "The right and left sides of your heart work together to make sure blood flows throughout your whole body. Blood flows through your heart in a series of steps. These steps take place in the space of one heartbeat — just a second or two.\n\nYour heart pumps about 2,000 gallons of blood each day. That’s enough to fill an 8-by-10-foot swimming pool.\n\nIt beats around 100,000 times daily. In an average life span of almost 79 years, your heart beats nearly 2.9 billion times. [...] You need continuous blood flow through your heart and body to stay alive. Your heart is a powerful muscle that pumps oxygen-rich blood out to your body. Once it leaves your heart, this blood flows through many blood vessels to reach every part of your body, from the major organs (like your brain) to the smallest tissues at the tips of your toes. Your blood is always on the go, and it has two main jobs while it’s flowing through your body: [...] The blood then returns to your heart once it’s low on oxygen and full of waste products. It needs to get filled with oxygen and get rid of carbon dioxide so your heart pumps it out to blood vessels in your lungs. Your blood gains oxygen and gets rid of waste in your lungs before flowing back to your heart. Your heart gratefully accepts this refreshed blood and pumps it back out to your body.",
+            "tier": 3
+          },
+          {
+            "id": "S2",
+            "title": "How the Heart Works | PeaceHealth",
+            "url": "https://www.peacehealth.org/locations/springfield/peacehealth-cardiac-surgery-riverbend-pavilion/how-the-heart-works",
+            "domain": "peacehealth.org",
+            "snippet": "Each day, the average heart beats 100,000 times, pumping about 2,000 gallons of blood around your body. A person’s heart, which beats between 60 and 100 times per minute, may beat more than 2.5 billion times during an average life span.\n\nIt takes less than 60 seconds for your heart to pump blood to every cell in your body. Your body needs this steady supply of oxygen-rich blood to keep it working right. If your cells don’t get oxygen, they will die, which in turn, puts you at risk, too. [...] The heart muscle is like two pumps in one. The right side of the heart receives blood from the body and pumps it to the lungs. The left side of the heart does the opposite: It receives blood from the lungs and pumps it out to the body. [...] Electrical impulses from your heart muscle cause your heart to contract and pump the blood back and forth between it and your body through the circulatory system—a complex network of arteries and veins. If all the vessels of the circulatory system in your body were laid end-to-end, they would extend about 60,000 miles, enough distance to circle the earth more than twice.",
+            "tier": 3
+          },
+          {
+            "id": "S3",
+            "title": "16 Surprising Facts About Your Heart",
+            "url": "https://www.unitypoint.org/news-and-articles/16-surprising-facts-about-your-heart-infographic",
+            "domain": "unitypoint.org",
+            "snippet": "The 2,000 gallons of blood that your heart pumps every day travels about 12,000 miles through your body each day, which is four times the size of the U.S. from coast to coast. During your lifetime, you pump about one million barrels of blood.\n\n### 6. Heart attacks happen most often on Monday mornings. [...] ### 3. Your heart is located in the middle of your chest.\n\nIt’s found behind your breastbone, but it’s tilted to the left, which makes it easier to feel on that side of your chest.\n\n### 4. Your heart beats around 100,000 times a day.\n\nThe average, healthy human heart beats around 100,000 times per day to pump blood through your body. The sound you hear when your heart beats is actually the noise of the heart valves opening and closing.\n\n### 5. Your heart pumps 2,000 gallons of blood a day. [...] and need to beat more to pump the same amount of blood.",
+            "tier": 3
+          },
+          {
+            "id": "S4",
+            "title": "How your heart works – Heart and circulatory system – BHF - BHF",
+            "url": "https://www.bhf.org.uk/informationsupport/how-a-healthy-heart-works",
+            "domain": "bhf.org.uk",
+            "snippet": "It’s a muscle, about the size of your fist, in the middle of your chest tilted slightly to the left.\n\nThe heart and circulatory system\n\nThe heart and the circulatory system\n\n## Function of the heart\n\nEach day, your heart beats around 100,000 times. This continuously pumps about 5 litres (8 pints) of blood around your body through a network of blood vessels (called arteries and veins) in your circulatory system. [...] Your heart needs to beat regularly to help pump blood around your body. Your heart has an electrical conduction system which sends signals throughout the upper chambers (atria) and lower chambers (ventricles). The electric signals make your heart beat in a regular, coordinated rhythm.\n\nThe electrical signals are sent by your heart's sinoatrial (SA) node. They travel across the top chambers (atria), causing them to contract (squeeze) and pump blood into the bottom chambers (ventricles). [...] BHF logo BHF logo \n\n Who we are\n Learn CPR\n Store finder\n\n# How your heart works\n\nThe heart is a very important organ in your chest. It works by pumping blood high in oxygen and nutrients around the body. It also pumps blood to the lungs to pick up more oxygen.\n\nPage updated:\n\nNext review:\n\nPage updated:\n\nNext review:\n\nThe human heart works like a pump sending blood around your body.\n\n## Where is your heart?",
+            "tier": 3
+          }
+        ],
+        "citationValid": true
+      },
+      {
+        "text": "Cracking your knuckles causes arthritis in your fingers.",
+        "timestamp": 8.2,
+        "origin": "speech",
+        "verdict": "false",
+        "rawVerdict": "false",
+        "explanation": "Multiple sources explicitly state that there is no link or evidence showing that cracking your knuckles causes arthritis.",
+        "citedIds": [
+          "S1",
+          "S2",
+          "S3",
+          "S4"
+        ],
+        "sources": [
+          {
+            "id": "S1",
+            "title": "Does Cracking Knuckles Cause Arthritis? Debunking the Myth | Biofreeze US",
+            "url": "https://biofreeze.com/articles/does-cracking-knuckles-cause-arthritis-debunking-the-myth",
+            "domain": "biofreeze.com",
+            "snippet": "If you're developing arthritis in your hands, you may ask your doctor if it's related to cracking your knuckles. The loud popping sound seems to support the idea that knuckle cracking can harm your joints. However, studies show that there is no link between cracking your knuckles and developing joint pain. The habit doesn't damage cartilage or trigger the inflammation characteristic of arthritis.\n\n## How to Support Healthy, Pain-Free Joints [...] Research shows that there is no link between knuckle cracking and joint damage. Studies comparing people who crack their knuckles with those who do not show no difference in arthritis rates. Even if you crack your fingers every day, the habit does not appear to harm joint structures.2\n\n## The Truth About Arthritis and Its Causes [...] Cracking your knuckles does not cause arthritis. While the sound may draw attention, research shows the habit does not harm your joints. Focusing on movement, joint care, and informed self-care choices supports long-term joint comfort more effectively.\n\n### Recommended products\n\n Biofreeze® Pain Relief Gel, 3 fl oz. Tube, Green\n\n  Easy Application\n\n  Easy Application\n\n  Easily Covers Small & Large Areas\n\n  Easily Covers Small & Large Areas\n\n  Targeted Relief\n\n  Targeted Relief",
+            "tier": 3
+          },
+          {
+            "id": "S2",
+            "title": "Does Cracking Your Knuckles Cause Arthritis? | Houston Methodist On Health",
+            "url": "https://www.houstonmethodist.org/blog/articles/2020/jun/does-cracking-your-knuckles-cause-arthritis",
+            "domain": "houstonmethodist.org",
+            "snippet": "Anxiety, restlessness or just pure pleasure — there are lots of reasons why many find comfort in cracking their knuckles. But, does it cause arthritis? The short answer is no.\n\nAccording to Dr. John Fackler, orthopedic surgeon at Houston Methodist, \"There are no known detrimental effects to cracking your knuckles.\" At worst, knuckle-cracking may cause temporary swelling or a feeling of weakness in the hands — but arthritis, not quite. [...] So, as it turns out, you can crack your knuckles, limitlessly, without the consequences of arthritis. Just don't be too caught off guard if your rings fit a little tighter after a knuckle-cracking session. Cracking knuckles can cause temporary swelling or a subtle increase in the size of your hands, but is ultimately harmless. \"There are no long-term studies that show knuckle-cracking causes any damage,\" Dr. Fackler says. Until then, \"When it comes to your fingers, don't even worry about it.\" [...] There are several types of arthritis, but knuckle-cracking is most commonly associated with osteoarthritis. In simple terms, \"Osteoarthritis is a disease where the articular cartilage, located at the end of the bone on each joint, starts to break down and flake off,\" causing pain, stiffness and swelling over time, Dr. Fackler explains.",
+            "tier": 3
+          },
+          {
+            "id": "S3",
+            "title": "Arthritis News : Knuckle Cracking Q&A from Johns Hopkins Arthritis Center",
+            "url": "https://www.hopkinsarthritis.org/arthritis-news/knuckle-cracking-q-a-from",
+            "domain": "hopkinsarthritis.org",
+            "snippet": "There is no evidence that cracking knuckles causes any damage such as arthritis in the joints. However, a couple of reports in the medical literature are available associating knuckle cracking with injury of the ligaments surrounding the joint or dislocation of the tendons ( attachments of muscles to bones) which improved with conservative treatment. A study found that after many years of cracking habitual knuckle crackers may have reduced grip strength compared with people not cracking their [...] ## Question: Can cracking knuckles / joints lead to arthritis?\n\nAnswer: There is no evidence of such an association. In limited studies performed there was no change in occurrence of arthritis between “habitual knuckle crackers” and “non crackers”\n\n## Question: If you have arthritis, can cracking knuckles / joints make it worse?",
+            "tier": 3
+          },
+          {
+            "id": "S4",
+            "title": "Does cracking knuckles cause arthritis? - Harvard Health",
+            "url": "https://www.harvardhealth.org/pain/does-cracking-knuckles-cause-arthritis",
+            "domain": "harvardhealth.org",
+            "snippet": "Print This Page\n\n## The truth – and the myth – behind the cracking knuckles debate\n\ncracking knuckles\n\nCracking your knuckles may aggravate the people around you, but it probably won't raise your risk for arthritis. That's the conclusion of several studies that compared rates of hand arthritis among habitual knuckle-crackers and people who didn't crack their knuckles. [...] Even if knuckle cracking doesn't cause arthritis, there's still good reason to let go of the habit. Chronic knuckle-cracking may lead to reduced grip strength. And there are at least two published reports of injuries suffered while people were trying to crack their knuckles.\n\nFor more information on keeping your hand healthy, nimble, and strong, buy Hands: Strategies for Strong, Pain-Free Hands, a Special Health Report from Harvard Medical School.\n\nShare",
+            "tier": 3
+          }
+        ],
+        "citationValid": true
+      },
+      {
+        "text": "Drinking pure water completely cures all forms of cancer.",
+        "timestamp": 13.2,
+        "origin": "speech",
+        "verdict": "false",
+        "rawVerdict": "false",
+        "explanation": "The provided sources explicitly state that there is no evidence that drinking water alone directly cures or prevents cancer, and experts describe claims that water can cure all types of cancer as absurd.",
+        "citedIds": [
+          "S1",
+          "S2"
+        ],
+        "sources": [
+          {
+            "id": "S1",
+            "title": "Water and Cancer: Role of Hydration in Healing & Recovery",
+            "url": "https://everhope.care/blogs/water-and-cancer",
+            "domain": "everhope.care",
+            "snippet": "People often ask: Can drinking water prevent cancer? The evidence says no. While drinking water and cancer prevention aren’t directly linked, clean, safe hydration reduces risks tied to contaminants. Adequate hydration keeps digestion smooth and promotes kidney function, which may reduce risks like kidney stones and urinary issues that might lead to cancer.\n\nHowever, there’s no evidence that drinking water alone directly lowers cancer risk. [...] Equally important is water quality. Contaminants such as arsenic or nitrates may increase cancer risk, so ensuring clean, filtered water is important.\n\n## Summing up: Water in cancer care is a strength, not a cure\n\nWhen it comes to water and cancer, hydration is not a treatment, but it’s a constant ally in healing. From protecting the kidneys and easing digestion to reducing fatigue and keeping therapy on track, water helps so much in how the body endures cancer care. [...] Most adults need 8–10 cups daily, but cancer patients may require more. Needs vary by treatment and side effects, so always follow guidance from your care team.\n\nCan drinking water prevent cancer?\n\nNo, drinking water alone doesn’t prevent cancer. However, proper hydration supports kidney and digestive health. Clean, safe water helps reduce risks from contaminants and supports overall resilience.\n\nWhat’s the best hydration drink for chemotherapy patients?",
+            "tier": 3
+          },
+          {
+            "id": "S2",
+            "title": "Drinking warm water does not cure ‘all types of cancer in 9 months’ | Fact Check",
+            "url": "https://factcheck.afp.com/drinking-warm-water-does-not-cure-all-types-cancer-9-months",
+            "domain": "factcheck.afp.com",
+            "snippet": "A public health professor told AFP that water - whether hot or cold - does not ‘have the power to cure illnesses’.\n\n‘Water is vital for life, but of course it doesn’t have the power to cure illnesses,’ said Bruno Falissard, director of the Centre for Research in Epidemiology and Population Health at French research institute Inserm and public health professor at Paris-Saclay university. [...] Facebook posts shared hundreds of times claim that drinking warm water ‘will resolve’ many health conditions, including ‘all types of cancer’. A public health professor told AFP that the theory was ‘absurd’.\n\nThe Facebook posts, which we’ve archived here, here and here, claim that drinking warm water in the morning ‘will resolve a long list of health conditions, including ‘epilepsy’, ‘paralysis’ and ‘all types of cancer in 9 months’. [...] One Google result for the mystery doctor leads to a blog post sharing the claims that drinking warm water is ‘100% effective in curing health problems, including cancer, and mentioning ‘Dr D. Mensah Asare’.\n\nHowever, a Google reverse image search of the photograph purporting the show the doctor reveals the image is actually that of a Ghanaian entrepreneur.\n\nImage\n\nA screenshot of a blog post sharing the fake claim, taken oin November 19, 2019",
+            "tier": 3
+          },
+          {
+            "id": "S3",
+            "title": "Water and Cancer Prevention",
+            "url": "https://thetruthaboutcancer.com/water-and-cancer-prevention?replytocom=2813",
+            "domain": "thetruthaboutcancer.com",
+            "snippet": "## Water and Cancer Prevention\n\nWater also helps protect the vital organs, specifically bladder, colon, and breast tissue, against cancer. Research published in the Journal of Clinical Oncology reveals that water intake is inversely related to each of these types of cancer; meaning the more water a person drinks, the less likely he or she is to develop these potentially fatal conditions. [...] “This suggests that increased water intake may have an important role in reducing colon cancer risk by decreasing bowel transit time, reducing the mucosal contact with carcinogens, and decreasing the concentration of carcinogens,” reports the Journal of Clinical Oncology paper.\n\nMost people don’t realize that a deficiency in this key “nutrient” can cause so many ailments, including cancer.  Are you drinking enough water, and doing so every day? Share this with friends to make sure they do! [...] Corresponding research identified elevated fluid intake as a detractor in the risk of adenocarcinoma of the colon in middle-aged men and women. Participants who drank at least five glasses of water daily were found to have a significantly reduced risk of colon cancer compared to those who drank two glasses of water or less daily.",
+            "tier": 3
+          },
+          {
+            "id": "S4",
+            "title": "Should Immunocompromised Patients With Cancer Worry About Drinking Water? | CURE",
+            "url": "https://www.curetoday.com/view/should-immunocompromised-patients-with-cancer-worry-about-drinking-water",
+            "domain": "curetoday.com",
+            "snippet": "+ CLL\n Lung Cancer\n  + Small Cell Lung Cancer (SCLC)\n Lymphoma\n  + Follicular Lymphoma\n  + Mantle Cell Lymphoma\n  + Non-Hodgkin Lymphoma\n Rare Cancers\n  + Neuroendocrine Cancer\n Sarcoma\n Skin Cancer\n  + Advanced Melanoma\n Thyroid Cancer [...] Turning to the Bottle\n\nLast year, Americans used 50 billion plastic water bottles. But is this water better than what comes out of a tap? Nagi Kumar, director of cancer chemoprevention at Moffitt Cancer Center in Tampa, Florida, feels it is, and recommends that her patients drink bottled water from a reputable source. Her advice is to look for the words “reverse osmosis” on the label, which indicate that the water was cleaned in a specific way. [...] A recent study on private wells in northern New England shed some light on this. Researchers explained that residents of Maine, New Hampshire and Vermont have seen an elevated prevalence of bladder cancer over the past 50 years. The scientists found low to moderate levels of arsenic in the private well water there during their research. The study’s authors state that those who drank the most water from private wells had almost twice the risk of bladder cancer than those who drank the least.",
+            "tier": 3
+          }
+        ],
+        "citationValid": true
+      }
+    ],
+    "timings": {
+      "ffmpeg": 5.327003599999997,
+      "transcription": 14.601026400000002,
+      "ocr": 1.350314799999993,
+      "claimExtraction": 1.4541601000000082,
+      "evidenceSearch": 2.0438775000000025,
+      "verification": 1.579531399999978,
+      "total": 26.3559522
+    }
+  },
+  {
+    "reelId": "reel_10",
+    "videoFile": "reel_10.mp4",
+    "modality": "both",
+    "transcript": "Important fact check today. Claim 1, the Amazon rainforest is located primarily in South America. Claim 2, vaccines contain tracking microchips connected to 5G cellular networks. Claim 3, consuming refined sugar is the sole cause of type 1 diabetes. Verify before spreading.",
+    "ocrText": [],
+    "extractedClaims": [
+      {
+        "text": "The Amazon rainforest is located primarily in South America.",
+        "timestamp": 2.5,
+        "origin": "speech",
+        "verdict": "true",
+        "rawVerdict": "true",
+        "explanation": "The provided sources confirm that the Amazon rainforest is located across South America, spanning multiple countries with the majority located in Brazil.",
+        "citedIds": [
+          "S2",
+          "S3",
+          "S4",
+          "S5"
+        ],
+        "sources": [
+          {
+            "id": "S2",
+            "title": "Amazon Rainforest | Earth and Atmospheric Sciences | Research Starters | EBSCOhost",
+            "url": "https://www.ebsco.com/research-starters/earth-and-atmospheric-sciences/amazon-rainforest",
+            "domain": "ebsco.com",
+            "snippet": "The Amazon rainforest, the largest tropical rainforest in the world, spans approximately 2.3 million square miles across nine South American countries, primarily Brazil. Known for its unparalleled biodiversity, it serves as a crucial habitat for millions of species, including plants, animals, fungi, and microbes. This vital ecosystem plays a significant role in producing oxygen and absorbing carbon dioxide, contributing to global climate regulation. The Amazon is also home to numerous [...] The Amazon rainforest is roughly 2.3 million square miles (6 million square kilometers) in size. That means that the Amazon rainforest is close in size to the lower forty-eight states of the United States. Most of the Amazon rainforest is located in Brazil, South America’s largest country, but it also covers parts of Peru, Ecuador, Columbia, Venezuela, Bolivia, Guyana, Suriname, and French Guiana. The rainforest covers about 40 percent of Brazil’s land area. The Atlantic Ocean borders the [...] The Amazon rainforest is roughly 2.3 million square miles (6 million square kilometers) in size. That means that the Amazon rainforest is close in size to the lower forty-eight states of the United States. Most of the Amazon rainforest is located in Brazil, South America’s largest country, but it also covers parts of Peru, Ecuador, Columbia, Venezuela, Bolivia, Guyana, Suriname, and French Guiana. The rainforest covers about 40 percent of Brazil’s land area. The Atlantic Ocean borders the",
+            "tier": 3
+          },
+          {
+            "id": "S3",
+            "title": "Amazon Rainforest | Earth Day",
+            "url": "https://www.earthday.org/amazon-rainforest",
+            "domain": "earthday.org",
+            "snippet": "Skip to Content\n\n#### Join Us\n\nJoin Us\n\nTERRESTRIAL ECOSYSTEM\n\nAMAZON RAINFOREST\n\nThe Amazon is the world’s largest rainforest, covering over 5.5 million square kilometers. It is located across South America and spans across Brazil, Bolivia, Peru, Ecuador, Colombia, Venezuela, Guyana, Suriname and French Guiana. The Amazon rainforest has been around for nearly 55 million years and is estimated to contain 10% of all known species on Earth.",
+            "tier": 3
+          },
+          {
+            "id": "S4",
+            "title": "Amazon Rainforest | Plants, Animals, Climate, & Deforestation",
+            "url": "https://www.britannica.com/place/Amazon-Rainforest",
+            "domain": "britannica.com",
+            "snippet": "Show less \n\nAmazon Rainforest, large tropical rainforest occupying the drainage basin of the Amazon River and its tributaries in northern South America and covering an area of 2,300,000 square miles (6,000,000 square km). Comprising about 40 percent of Brazil’s total area, it is bounded by the Guiana Highlands to the north, the Andes Mountains to the west, the Brazilian central plateau to the south, and the Atlantic Ocean to the east. [...] Top Questions \n\n### How large is the Amazon Rainforest?\n\nThe Amazon Rainforest stretches from the Atlantic Ocean in the east to the tree line of the Andes in the west. The forest widens from a 200-mile (320-km) front along the Atlantic to a belt 1,200 miles (1,900 km) wide at the Andean foothills. Brazil holds approximately 60 percent of the Amazon within its borders.\n\n### How many species does the Amazon Rainforest contain? [...] Amazonia is the largest river basin in the world, and its forest stretches from the Atlantic Ocean in the east to the tree line of the Andes in the west. The forest widens from a 200-mile (320-km) front along the Atlantic to a belt 1,200 miles (1,900 km) wide where the lowlands meet the Andean foothills. The immense extent and great continuity of this rainforest is a reflection of the high rainfall, high humidity, and monotonously high temperatures that prevail in the region.\n\nImage 18",
+            "tier": 3
+          },
+          {
+            "id": "S5",
+            "title": "Amazon Rainforest | The Nature Conservancy",
+            "url": "https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/amazon-rainforest",
+            "domain": "nature.org",
+            "snippet": "Share\n\n## The Amazon is our planet’s greatest life reserve and our world’s largest tropical rainforest.\n\n## Overview\n\n### Description\n\nProbably no other place on Earth is more critical for human survival than the Amazon. Nearly the size of the continental United States, the Amazon spans nine countries (Brazil, Peru, Bolivia, Ecuador, Colombia, Venezuela, French Guiana, Guyana, Suriname), but 60% of it lies in Brazil. [...] The Amazon rainforest is the largest remaining tropical forest on our planet. It is home to:\n\n 1/3 of the world’s species;\n 1/4 of the world’s freshwater;\n 1/5 of the world’s forests;\n 48 billion tons of carbon dioxide in its trees;\n 200 indigenous and traditional communities.\n\nThe Brazilian Amazon is also home to 21 million people (the population of London, New York and Los Angeles combined), including 200 indigenous communities.",
+            "tier": 3
+          }
+        ],
+        "citationValid": true
+      },
+      {
+        "text": "Vaccines contain tracking microchips connected to 5G cellular networks.",
+        "timestamp": 8.1,
+        "origin": "speech",
+        "verdict": "false",
+        "rawVerdict": "false",
+        "explanation": "The provided sources explicitly state that there are no microchips in any vaccines, and the vaccine lipid nanoparticles cannot interact with or be controlled by 5G technology.",
+        "citedIds": [
+          "S1",
+          "S2",
+          "S3",
+          "S4"
+        ],
+        "sources": [
+          {
+            "id": "S4",
+            "title": "No, COVID vaccines don’t contain nanotechnology that can be programmed via 5G wireless networks | AP News",
+            "url": "https://apnews.com/article/fact-check-COVID-mRNA-vaccine-nanotech-390958734912",
+            "domain": "apnews.com",
+            "snippet": "“There areno microchips in any vaccines, including COVID-19 vaccines,” the FDA wrote. “Vaccine lipid nanoparticles cannot interact with 5G technology.”  \n ___   \nThis is part of AP’s effort to address widely shared misinformation, including work with outside companies and organizations to add factual context to misleading content that is circulating online. Learn more about fact-checking at AP.\n\nImage 19: PHILIP MARCELO\n\nPHILIP MARCELO [...] #### Targeting Tracking Technologies\n\n- [x] Targeting Tracking Technologies [...] Wherry and other experts concurred. “There’s no conceivable way that these – again, completely normal – chemical charges have anything to do with control by external signals like 5G,” he wrote.\n\n\n\nFACT FOCUS: COVID vaccines are not in the food supply",
+            "tier": 1
+          },
+          {
+            "id": "S1",
+            "title": "Why there's no 5G tracking microchip in the Covid vaccines",
+            "url": "https://www.cnbc.com/video/2021/10/01/why-theres-no-5g-tracking-microchip-in-the-covid-vaccine.html",
+            "domain": "cnbc.com",
+            "snippet": "The Covid vaccines are administered with 25- to 22-gauge needles, which have internal diameters between about 0.26 and 0.41 millimeters. Meanwhile, a chip with 5G functionality is a little smaller than a penny. The smallest radio-frequency identification, or RFID chip, is indeed small enough at 0.125 millimeters. But they only function when attached to a coil antenna that makes the single-chip system about the size of a grain of rice, which would require a syringe about 13 times larger than the [...] Kevin McHugh, now a vaccine researcher and assistant professor at Rice University, co-authored the paper. It's not a microchip. It's a nanoparticle,\" McHugh said. \"We would couple it to the actual vaccine itself so no one can possibly kind of make a mistake that would cause a child to be unprotected.\"\n\nWhile companies are making billions by tracking and selling your data, they're not using vaccines to do it. [...] When 1,500 American adults were asked in July whether \"the U.S. government is using the Covid-19 vaccine to microchip the population,\" 5% said it was \"definitely true,\" while another 15% said it was \"probably true.\" Related conspiracies have spread rapidly outside the U.S., too. In the U.K. last year, false claims connecting 5G to Covid led to 133 arson attacks on telecommunications equipment and 300 incidents of staff being physically or verbally abused, according to wireless industry group",
+            "tier": 3
+          },
+          {
+            "id": "S2",
+            "title": "Why It’s Impossible To Put Tracking Microchips In Covid Vaccines",
+            "url": "https://www.youtube.com/watch?v=2S2v45_NSYs",
+            "domain": "youtube.com",
+            "snippet": "[4:33] It's not like we see these misinformation narratives singularly they work because they build off of one another.\n[4:39] The final twisted result is a false conspiracy that goes something like this. The global distribution of the COVID-19\n[4:46] vaccine is in fact a ploy by Bill Gates and other elites to inject each person with a tracking microchip that would be\n[4:52] activated by 5g wireless technology. So let's break it down. Is there in fact a chip small enough to fit enough [...] [0:54] that power source would have to transmit a signal through at least an inch of muscle and fat and skin to a remote device, which again just doesn't make sense.\n[1:06] Videos making fun of the theory and some supporting it have gotten millions of views. But the vaccine does not inject a\n[1:15] microchip that can track you make you magnetic, or connect you to a 5g network. [...] CNBC talked to doctors, the makers of microchips, and one man who does have a microchip under his skin about why the vaccine can’t track you, make you magnetic, or connect you to the 5G network.\n\n» Subscribe to CNBC: \n» Subscribe to CNBC TV: \n» Subscribe to CNBC Classic: \n\nAbout CNBC: From 'Wall Street' to 'Main Street' to award winning original documentaries and Reality TV series, CNBC has you covered. Experience special sneak peeks of your favorite shows, exclusive video and more.",
+            "tier": 3
+          },
+          {
+            "id": "S3",
+            "title": "Why the Covid vaccines don't contain a magnetic 5G tracking chip",
+            "url": "https://www.cnbc.com/2021/10/01/why-the-covid-vaccines-dont-contain-a-magnetic-5g-tracking-chip.html",
+            "domain": "cnbc.com",
+            "snippet": "The Covid vaccines are administered with 25- to 22-gauge needles, which have internal diameters between about 0.26 and 0.41 millimeters. Meanwhile, a chip with 5G functionality is a little smaller than a penny. The smallest radio-frequency identification, or RFID chip, is indeed small enough at 0.125 millimeters. But they only function when attached to a coil antenna that makes the single-chip system about the size of a grain of rice, which would require a syringe about 13 times larger than the [...] \"That's just not possible as far as the size that would be required for that microchip,\" said Dr. Matt Laurens, a pediatric infectious disease specialist at the University of Maryland School of Medicine who also serves as a co-investigator on the phase three trials of the Moderna and Novavax Covid vaccines. \"Second, that microchip would have to have an associated power source, and then in addition, that power source would have to transmit a signal through at least an inch of muscle and fat and [...] \"It's basically getting rid of your wallet and key chain and allowing that microchip to represent whatever cards and keys you have cluttering your pockets,\" Osterlund said.\n\nThe value of the Biohax chips is that each one is unique, but because the Covid vaccines are administered with multidose vials, it's impossible to ensure even a nonspecific chip would end up in each arm.",
+            "tier": 3
+          }
+        ],
+        "citationValid": true
+      },
+      {
+        "text": "Consuming refined sugar is the sole cause of type 1 diabetes.",
+        "timestamp": 14.5,
+        "origin": "speech",
+        "verdict": "false",
+        "rawVerdict": "false",
+        "explanation": "The sources explicitly state that type 1 diabetes is an autoimmune disease not linked to lifestyle or caused by sugar.",
+        "citedIds": [
+          "S2",
+          "S3",
+          "S4"
+        ],
+        "sources": [
+          {
+            "id": "S1",
+            "title": "Sugar intake is associated with progression from islet autoimmunity to type 1 diabetes: the Diabetes Autoimmunity Study in the Young",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4529377",
+            "domain": "pmc.ncbi.nlm.nih.gov",
+            "snippet": "The Overload Hypothesis proposes a mechanism relating beta cell stress to type 1 diabetes development, suggesting that overeating and sedentary lifestyles place a high insulin demand on the beta cell . Rapidly digested foods, such as refined carbohydrates, can cause large postprandial spikes in blood glucose and a higher rate of insulin production . Researchers have investigated a variety of dietary factors that may increase insulin demand for their role in islet autoimmunity (IA) and type 1 [...] and in particular, disaccharides and sucrose, were associated with type 1 diabetes risk . While our study did not find a significant association between sucrose or carbohydrates and type 1 diabetes risk specifically, our prospective cohort study results generally support these case–control reports. [...] prior to IA development. However, once the immune system has been activated by other genetic or environmental factors and the body has begun the autoimmune attack on the beta cells, the total amount of sugar that a child consumes may increase type 1 diabetes risk.",
+            "tier": 1
+          },
+          {
+            "id": "S2",
+            "title": "Sugar and diabetes | Eating with diabetes | Diabetes UK",
+            "url": "https://www.diabetes.org.uk/living-with-diabetes/eating/sugar-and-diabetes",
+            "domain": "diabetes.org.uk",
+            "snippet": "### SugarYou don’t need to cut out sugar from your diet if you have diabetes. And while we don’t know exactly what causes type 1 diabetes, but it isn’t linked to lifestyle, and so sugar doesn’t directly cause the condition.\n\nThe question of whether sugar directly causes type 2 diabetes is a bit complicated. [...] We know that sugar does not cause type 1 diabetes, nor is it caused by anything else in your lifestyle. In type 1 diabetes, the insulin producing cells in your pancreas are destroyed by your immune system. [...] This includes:\n\n table sugar that we add to our hot drinks or breakfast cereal\n caster sugar, used in baking\n sugars hidden in sauces, ready meals, cakes and drinks.\n honey and syrups, like golden syrup or agave syrup\n pure fruit juice\n smoothies.\n\n## Does sugar cause diabetes?\n\nThere are two main types of diabetes – type 1 and type 2 diabetes.",
+            "tier": 3
+          },
+          {
+            "id": "S3",
+            "title": "Diabetes: Is It Caused by Eating Too Much Sugar?",
+            "url": "https://zoe.com/learn/can-sugar-cause-diabetes",
+            "domain": "zoe.com",
+            "snippet": "These included increases in:\n\n belly fat\n fatty acid production, which is linked to fatty liver disease\n triglyceride levels\n insulin resistance\n\nGlucose, the sugar that enters your bloodstream after you eat or drink, also has a part to play in diabetes risk.\n\nThat’s because sugary foods and drinks — as well as refined carbohydrates like white bread and pasta — can cause larger “spikes” and “crashes” in blood sugar. [...] When you eat sucrose, the glucose goes directly into your bloodstream to be used for energy. Alternatively, it can be stored in your muscles or as fat.\n\nBefore fructose can be used as energy, most passes through your liver, where it’s turned into glucose and fat.\n\nIf you eat too much fructose, this process can lead to fatty deposits in your liver, unhealthy levels of blood fats called triglycerides, and excess uric acid, all of which are linked to an increased risk of diabetes. [...] ## Summary\n\nThe relationship between diabetes and sugar is far from simple.\n\nEating too much sugar is not linked to type 1 diabetes, and it doesn’t directly cause type 2 diabetes — but it can increase your risk of developing it.\n\nStudies have shown that people who regularly consume drinks that contain added sucrose and fructose, like soda, have a greater risk of developing type 2 diabetes.",
+            "tier": 3
+          },
+          {
+            "id": "S4",
+            "title": "Is diabetes caused by eating too much sugar? | Children's Hospital of Philadelphia",
+            "url": "https://www.chop.edu/pediatric-health-chat/is-diabetes-caused-by-eating-too-much-sugar",
+            "domain": "chop.edu",
+            "snippet": "Type 1 diabetes is an autoimmune disease, and type 2 diabetes is a metabolic condition that results from a combination of genetic predisposition, environmental, and lifestyle factors. Diabetes is not an issue with sugar itself, but rather with insulin. Insulin is a hormone made by the pancreas that acts like a messenger in the body to convert the food we eat into the energy we need. [...] Type 1 diabetes is an autoimmune disease, and type 2 diabetes is a metabolic condition that results from a combination of genetic predisposition, environmental, and lifestyle factors. Diabetes is not an issue with sugar itself, but rather with insulin. Insulin is a hormone made by the pancreas that acts like a messenger in the body to convert the food we eat into the energy we need. [...] But, sugar intake alone does not cause diabetes. It’s important to note that you can eat a lot of sugar and not develop diabetes or eat little sugar and develop diabetes. In fact, most people with diabetes are not overweight.\n\n## What do we know about the causes of diabetes?",
+            "tier": 3
+          }
+        ],
+        "citationValid": true
+      }
+    ],
+    "timings": {
+      "ffmpeg": 5.297162700000015,
+      "transcription": 14.326331600000005,
+      "ocr": 1.257254099999991,
+      "claimExtraction": 1.1668372000000091,
+      "evidenceSearch": 1.6003067000000155,
+      "verification": 4.125174899999983,
+      "total": 27.773121799999995
+    }
+  },
+  {
+    "reelId": "reel_11",
+    "videoFile": "reel_11.mp4",
+    "modality": "speech_only",
+    "transcript": "Good morning everyone. Starting my morning by grinding fresh coffee beans. There is something truly special and calming about waking up early before the world is awake. Take a deep breath, drink some coffee, and have an amazing day ahead.",
+    "ocrText": [],
+    "extractedClaims": [],
+    "timings": {
+      "ffmpeg": 5.497810599999997,
+      "transcription": 12.332937599999976,
+      "ocr": 1.0665739000000176,
+      "claimExtraction": 0.982990599999961,
+      "evidenceSearch": 0,
+      "verification": 0,
+      "total": 19.88033819999997
+    }
+  },
+  {
+    "reelId": "reel_12",
+    "videoFile": "reel_12.mp4",
+    "modality": "both",
+    "transcript": "Hey guys, hope you are having a wonderful relaxing weekend. I am trying to decide which movie to watch tonight. Do you prefer high adrenaline science fiction or funny comfort comedies? Drop your favorite movie titles in the comments below.",
+    "ocrText": [],
+    "extractedClaims": [],
+    "timings": {
+      "ffmpeg": 4.985078000000038,
+      "transcription": 11.556839799999958,
+      "ocr": 1.0481038999999874,
+      "claimExtraction": 0.7640641000000178,
+      "evidenceSearch": 0,
+      "verification": 0,
+      "total": 18.354137800000025
+    }
+  }
+]

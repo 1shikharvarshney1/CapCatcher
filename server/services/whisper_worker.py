@@ -107,6 +107,24 @@ def main():
                 sys.stdout.flush()
                 continue
 
+            # Quick silence / VAD check: skip transcribing pure digital silence
+            try:
+                import soundfile as sf
+                import numpy as np
+                audio_data, sr = sf.read(audio_path)
+                if len(audio_data) == 0 or float(np.max(np.abs(audio_data))) < 0.001:
+                    sys.stdout.write(json.dumps({
+                        "status": "ok",
+                        "text": "",
+                        "segments": [],
+                        "engine": engine,
+                        "model": model_name
+                    }) + "\n")
+                    sys.stdout.flush()
+                    continue
+            except Exception:
+                pass
+
             seg_list = []
             full_text = ""
 
@@ -133,7 +151,7 @@ def main():
                 result = model_instance(
                     audio_path,
                     return_timestamps=True,
-                    generate_kwargs={"language": "en", "task": "transcribe"}
+                    generate_kwargs={"language": "en", "task": "transcribe", "temperature": 0.0}
                 )
                 full_text = (result.get("text") or "").strip()
                 chunks = result.get("chunks") or []
