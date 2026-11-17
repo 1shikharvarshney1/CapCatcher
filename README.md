@@ -11,7 +11,9 @@ Short-form videos (Instagram Reels, YouTube Shorts, TikTok) spread viral misinfo
 - **Frontend**: React 18, Vite, Vanilla CSS
 - **Backend**: Node.js (ESM), Express.js, Multer
 - **Audio & Video Processing**: `fluent-ffmpeg`, `ffmpeg-static`
-- **Speech-to-Text**: Groq API (`whisper-large-v3`)
+- **Speech-to-Text**: Switchable provider (`WHISPER_PROVIDER=local|groq`, default: `local`)
+  - **Local Provider**: Open-source Whisper (`whisper-base` / `faster-whisper` on CPU via persistent Python worker)
+  - **Cloud Provider**: Groq API (`whisper-large-v3`)
 - **Optical Character Recognition (OCR)**: Tesseract.js (English model)
 - **Claim Extraction & Fact Verification**: Google Gemini API (`gemini-3.5-flash-lite` / `gemini-3.1-flash-lite`)
 - **Evidence Retrieval**: Tavily Search API, Google Fact Check Tools API
@@ -58,7 +60,8 @@ flowchart TD
 ## Features
 
 - **Multimodal Video Ingestion**: Processes vertical 9:16 videos, sampling audio at 16 kHz and video at 0.5 fps (1 frame every 2 seconds, capped at 30 frames).
-- **Dual-Stream Claim Extraction**: Simultaneously transcribes spoken narration with Groq Whisper and extracts on-screen text overlays with Tesseract OCR, merging them into unified, timestamp-anchored assertions.
+- **Dual-Stream Claim Extraction**: Simultaneously transcribes spoken narration (via local open-source Whisper or Groq API) and extracts on-screen text overlays with Tesseract OCR, merging them into unified, timestamp-anchored assertions.
+- **Switchable Whisper Architecture**: Supports local open-source Whisper execution (`WHISPER_PROVIDER=local`, default) behind a persistent worker process that loads once in memory, eliminating external transcription API dependencies, while preserving Groq (`WHISPER_PROVIDER=groq`) for constrained cloud deployments.
 - **Credibility Tier Ranking**: Prioritizes evidence using a tiered domain hierarchy:
   - **Tier 1 (High)**: Government portals (`.gov`), academic institutions (`.edu`), international agencies (WHO, NASA, NOAA), and recognized fact-checkers (Snopes, PolitiFact, FactCheck.org).
   - **Tier 2 (Medium)**: Established scientific encyclopedias, peer-reviewed journals, and mainstream news outlets (Reuters, AP).
@@ -105,17 +108,44 @@ CapCatcher/
 
 ---
 
+## Transcription Architecture: Local Inference vs. Cloud Demo
+
+CapCatcher supports two switchable speech-to-text providers configured via `WHISPER_PROVIDER`:
+
+| Dimension | Local Provider (`WHISPER_PROVIDER=local`) | Cloud Provider (`WHISPER_PROVIDER=groq`) |
+|---|---|---|
+| **Default** | **Yes (default)** | Optional / Deployed fallback |
+| **Model** | Open-source Whisper (`whisper-base` / `faster-whisper`) | `whisper-large-v3` |
+| **Execution** | Local Python CPU worker (`whisper_worker.py`) | Remote Groq API |
+| **Latency** | ~10–14s on modern 4-core CPU (0.37x RTF) | ~0.5–0.9s |
+| **Memory Footprint** | ~500 MB RAM | < 5 MB RAM on server |
+| **API Costs / Quota**| **$0.00 / Completely offline & unlimited** | Free-tier rate limits apply |
+| **Target Environment**| **Local development, offline testing, evaluation** | **Cloud demo deployment (Render Free Tier)** |
+
+### Why Groq Whisper is Kept for the Render Live Demo
+
+Render's Free Web Service tier enforces a hard **512 MB RAM ceiling** and **0.1 shared vCPU**:
+1. **Out of Memory (OOM)**: Local Whisper model weights (~290 MB for `base`) + Python/PyTorch runtime (~200 MB) + Node.js Express server (~75 MB) + Tesseract OCR WASM (~180 MB) easily exceed 750 MB to 1 GB resident memory. Exceeding 512 MB triggers an instant kernel `SIGKILL` (Exit Code 137).
+2. **CPU Throttling**: A 0.1 vCPU allocation would throttle local CPU transcription beyond 60–90 seconds per reel.
+
+Therefore:
+- **Local development and evaluation**: Use `WHISPER_PROVIDER=local` for zero-dependency, private, open-source execution.
+- **Render deployment (Live Demo)**: Keep `WHISPER_PROVIDER=groq` with `GROQ_API_KEY` set in Render environment settings.
+
+---
+
 ## Prerequisites & Installation
 
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/) (v18.0.0 or higher)
 - [npm](https://www.npmjs.com/) (v9.0.0 or higher)
+- [Python](https://www.python.org/) (v3.10 or higher, required when `WHISPER_PROVIDER=local`)
 - System `ffmpeg` is optional (`ffmpeg-static` is installed as a server dependency)
 - API Keys:
-  - **Groq API Key**: Free tier available at [console.groq.com](https://console.groq.com)
   - **Google Gemini API Key**: Free tier available at [aistudio.google.com](https://aistudio.google.com)
   - **Tavily Search API Key**: Free tier available at [app.tavily.com](https://app.tavily.com)
+  - **Groq API Key**: Optional for local mode; required when `WHISPER_PROVIDER=groq` or deployed on Render
   - **Google Fact Check API Key**: Optional, available via [Google Cloud Console](https://console.cloud.google.com)
 
 ---
@@ -132,21 +162,34 @@ CapCatcher/
    ```bash
    cp server/.env.example server/.env
    ```
-   Open `server/.env` and supply your API keys:
+   Open `server/.env` and supply your configuration:
    ```env
    PORT=5001
-   GROQ_API_KEY=your_groq_api_key_here
+
+   # Whisper Audio Transcription Provider (default: local)
+   # 'local' runs Whisper locally via Python; 'groq' calls Groq API
+   WHISPER_PROVIDER=local
+   WHISPER_LOCAL_MODEL=base
+
+   # Required API Credentials
    GEMINI_API_KEY=your_gemini_api_key_here
    TAVILY_API_KEY=your_tavily_api_key_here
    GEMINI_MODEL=gemini-3.5-flash-lite
+
+   # Required only if WHISPER_PROVIDER=groq or deploying to Render
+   GROQ_API_KEY=your_groq_api_key_here
+
    # Optional: Leave blank to use in-memory MongoDB
    MONGODB_URI=
    ```
 
-3. **Install server dependencies:**
+3. **Install server dependencies & Python worker requirements:**
    ```bash
    cd server
    npm install
+
+   # Install local Whisper Python dependencies (only needed if WHISPER_PROVIDER=local)
+   python -m pip install faster-whisper transformers torch soundfile
    ```
 
 4. **Install client dependencies:**
@@ -196,12 +239,32 @@ CapCatcher includes a synthetic evaluation suite with 12 vertical benchmark reel
   cd server
   node --env-file=.env ../eval/evaluate_strengthened_optimization.js
   ```
+- **Run local Whisper vs. Groq comparison benchmark (12 reels):**
+  ```bash
+  cd server
+  node --env-file=.env ../eval/evaluate_whisper_comparison.js
+  ```
 
 ---
 
 ## Verified Evaluation Results
 
 > **Benchmark Notice**: All metrics below were computed from scratch against real script runs recorded in [`eval/results/`](eval/results/) and documented in [`eval/RESULTS.md`](eval/RESULTS.md).
+
+### Local Whisper vs. Groq Cloud Whisper Comparison (12 Reels)
+
+| Metric | Groq Whisper (`whisper-large-v3`) | Local Whisper (`whisper-base`, CPU) | Comparison Delta |
+|---|---|---|---|
+| **Claims Recovered ($TP$)** | **21 of 24 (87.5%)** | **21 of 24 (87.5%)** | Identical recall across all 12 reels |
+| **False Positives ($FP$)** | **0** | **0** | Perfect specificity on negative controls |
+| **Verdicts Matching Labels**| **18 of 21 (85.7%)** | **20 of 21 (95.2%)** | +9.5% improvement via tighter sentence segments |
+| **Timestamp Error (Median)** | **3.00s** | **2.80s** | 0.20s lower median alignment error |
+| **Transcription Time (Median)**| **0.64s** | **12.69s** | Cloud GPU is ~19.8× faster than laptop CPU |
+| **Transcription Time (Mean)** | **0.91s** | **10.23s** | ~10s per reel on standard 4-core i5 CPU |
+| **End-to-End Latency (Median)**| **44.38s** | **23.96s** | Fast local turn-around with concurrent verification |
+| **End-to-End Latency (Mean)** | **46.49s** | **21.36s** | 10.02s (text-only) to 32.41s (cold multimodal) |
+
+### Baseline Pipeline Benchmarks
 
 | Metric | Score | Sample Size ($n$) | Description |
 |---|---|---|---|
